@@ -19,4 +19,100 @@ output:
 
 # W1: Jan. 4th, 2022
 
+## Intro 
+
+- Adjunct at PSU and did research on geometry 
+
+- starting from the ground up 
+
+- for the first 6 - 7 we are going to take Euclids rules 
+
+- then  focus on non-euclidean geometry 
+
+This course is about : 
+
+- building geometry from the ground up 
+
+- explaining things with pictures
+
+- understanding how to start from nothing and get something 
+
+- how to use geometry 
+
+- write proofs (mostly writing in paragraphs), abd build confidence in geometric proofs. 
+
+Canvas 
+
+- Boyce Notes will be our main texts 
+
+  - Boyce has taught course for years and has made notes as up to date as possible. 
+  
+- Will recommend sections or problems from Alfrik and Barsamian
+
+Calendar 
+
+- Homework is due on Friday 
+
+- Homework will always be based on previous week's lessons 
+
+- Participation forms due Monday. 
+
+- Quiz's are take home 
+
+  - Due end of week 3 (will be posted at the end of next week)
+  
+    - Opportunity to present math (video, power point, ect.)
+    
+  - Due end of week 8
+  
+- For midterm and final we can proctor online or take in person. Will send an email before hand. 
+
+Today 
+
+- various universities never have the same geometry class 
+
+- Boyce was apart of research group that studies how geometry fits into college curriculum. 
+
+- class will end early (5:30) so we can fill out form that we will fill out at the end of the term. 
+
+  - this is a "before" form, so it is okay that you dont know things
+  
+## Axioms 
+
+> **Axioms** : ground rules that build on 
+
+Axiom 1 : 4 is special 
+
+Axiom 2 : 3 is not special 
+
+> **model** : Definition of terms that fits rules.
+
+Q : if the word special meant even would this model make sense? 
+
+A : Yes. 
+
+Q : what if special = odd 
+
+A : No. 
+
+Q : what if special = perfect square 
+
+A : Yes.  
+
+Breakout Groups : 
+
+Axiom 1 : 4 is special 
+
+Axiom 2 : 3 is not special
+
+Axiom 3 : If x is special, x-1 is not special.
+
+A. special = even , is this still true 
+
+B. special = square 
+
+Q : Do these models still work? 
+
+B does not work with zero as a square. 
+
 # W1: Jan. 6th, 2022
