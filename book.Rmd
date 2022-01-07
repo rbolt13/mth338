@@ -148,11 +148,11 @@ $_5R_7$ means "5 related to 7"
 >
 > _For all elements a, b, and c in the set, if a is related to b, and b is related to c, then a is related to c._
 
-T.1 is an exsitence statement so it's proof starts by using the only axiom that is also an existence statement. 
+T.1 is an existence statement so it's proof starts by using the only axiom that is also an existence statement. 
 
 Theorems are true by the simple fact of the axioms and the rules of logic, and nothing else. 
 
-(1.1.7 end of page 18)
+(20)
 
 ## 10 : Euclidean Geometry II : Similarity 
 

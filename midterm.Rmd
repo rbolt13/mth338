@@ -13,7 +13,8 @@ output:
 ---
 
 ```{r, echo=F, message=F}
-
+library(kableExtra) # tables 
+library(magrittr) # %>% 
 ```
 
 
@@ -116,3 +117,232 @@ Q : Do these models still work?
 B does not work with zero as a square. 
 
 # W1: Jan. 6th, 2022
+
+Goal of course : Use axioms to prove theorems. 
+
+Due Monday : Participation Form
+
+Homework #1 Due next Friday 
+
+Note on Homework #2 : "Why" usually means "proof"  but this time a sentence or two explantion is good. (But: be careful with examples)
+
+Example : Why are all negative numbers smaller than all positive numbers? 
+
+(a) If a number is negative its < 0
+
+(b) Well, -2 < 3
+
+Last time : Euclid 300 BCE
+
+### First 3 axioms 
+
+(1) Two $\underline{\text{points}}$ determine every $\underline{\text{line}}$. Every line contains at least 2 points and there exists three non-$\underline{\text{collinear}}$ points. 
+
+- will need to understand underlined terms, by a model or definition of these terms. 
+
+(2) If B is $\underline{\text{between}}$ A and C, A, B, C are $\underline{\text{collinear}}$. If A, B, C are $\underline{\text{collinear}}$, exactly one of these $\underline{\text{points}}$ is between the other two. 
+
+(3) Points of $\underline{\text{intersection}}$ exist if, when constructed in the $\underline{\text{plane}}$, the $\underline{\text{lines}}$ or $\underline{\text{circles}}$ necessarily cross. 
+
+Practice : "between"
+
+![](img/img2.png)
+
+**$\underline{\text{Collinear}}$** : A, B, C are collinear if 1 point lies on the $\underline{\text{line}}$ connecting the other 2. 
+
+Q : What is the problem with the picture on the right? 
+
+- A, C, B is not collinear, so B is not between. 
+
+## Break-out Groups : Definitions 
+
+Group 1 : A point is a coordinate in space. 
+
+Group 2 : circle is a line segement with a fixed pt around center that rotates, and has a radius. 
+
+Group 3 : line segment has end points A and B and all points that are both between and collinear. 
+
+- do we need collinear if we say between? no, because its in our definition of between  
+
+Group 3 : Endpoints are points on line segment that aren't between any other 2 points. 
+
+Will formalize definitions these definitions later : point, straight, line, circle, radius, center, line segment, endpoint 
+
+## Part Conjectures and Conditional Statements
+
+Workflow : Start with axioms 
+
+$\rightarrow$ make conjecture (un-proven maybe theorem). 
+
+$\rightarrow$ theorem is conjecture once it's "proved".
+
+$\underline{\text{Conditional Statement}}$ : If X then Y. 
+
+- X is the hypothesis 
+
+- Y is conclusion 
+
+- Ex: If X is an even number then x-1 is an odd number. 
+
+  - Hypothesis : "x is even"
+  
+  - Conclusion : "x-1 is an odd number"
+
+$\rightarrow$ Assign "truth values"
+
+- If X then Y $\rightarrow$ T
+
+## List of Vocabularly going with conditional statements
+
+1. X $\rightarrow$ not X is $\underline{\text{negation}}$
+
+- Ex: X : x is even, not X : x is not even. 
+
+- Ex: X : all cats are orange, not X : not all cats are orange
+
+  - not X : at least 1 cat is not orange
+  
+- Ex: X : If it is cloudy, then it is raining, not X : It can be both cloudy and not raining. 
+
+**If X then Y** 
+
+Ex: X : If Anne is a beagle then Anne is a dog. (True)
+
+1. Converse : If Y then X.  
+
+- Converse of X : If Anne is a dog, then Anne is a beagle. (False)
+
+2. Contrapositive : If not Y, then not X. 
+
+- Contrapositive of X : If Anne is not a dog, then Anne is not a beagle. (True)
+
+- A statement and its contrapositive are logically equivalent, meaning they have the same truth value (both true or both false). 
+
+3. Inverse : If not X then not Y. 
+
+- Inverse of X : If Anne is not a beagal, then Anne is not a dog. (False)
+
+- The inverse is the contrapositive of the converse $\rightarrow$ logically equivalent. 
+
+Statement $\Leftrightarrow$ Contrapositive 
+
+Converse $\Leftrightarrow$ Inverse 
+
+## Biconditional: X if and only if y
+
+Ex : If x is an even number then x-1 is an odd number. (True)
+
+Contrapositive : If x-1 is not odd, x is not even. (True)
+
+Converse : If x-1 is odd, x is even. (True)
+
+Inverse : If X is not even, x-1 is not odd. (True)
+
+Ex : X is even if and only if x-1 is odd. 
+
+- x is even iff x-1 is odd. 
+
+- $x\text{ is even}\Leftrightarrow x-1\text{ is odd}$
+
+## Logic : Organizing "truth values"
+
+**Truth Table** 
+
+```{r tuth table, echo=F, message=F}
+x <- c("T","F")
+negation_not_x <- c("F","T")
+truth_table <- data.frame(x,negation_not_x)  %>% 
+  kable(align = "c") %>% 
+  kable_minimal() %>% 
+  kable_styling(full_width = F)
+truth_table
+```
+
+```{r truth table 1, echo=F, message=F}
+x <- c("T","T", "F", "F")
+y <- c("T","F","T","F")
+if_x_then_y <- c("T","F","T","T")
+truth_table_2 <- data.frame(x,y,if_x_then_y) %>% 
+  kable(align = "c") %>% 
+  kable_minimal() %>% 
+  kable_styling(full_width = F)
+truth_table_2
+```
+
+- "If x is true then y is true"
+
+Homework 
+
+```{r truth table 2, echo=F, message=F}
+x <- c("T","T", "F", "F")
+y <- c("T","F","T","F")
+if_x_or_y <- c("T","F","F","F")
+if_x_and_y <- c("T","T","T","F")
+truth_table_3 <- data.frame(x,y,if_x_or_y, if_x_and_y) %>% 
+  kable(align = "c") %>% 
+  kable_minimal() %>% 
+  kable_styling(full_width = F)
+truth_table_3
+```
+
+Inclusive vs. exclusive 
+
+- In math we always mean inclusive, "or both"
+
+- Common language is exclusive, "one or the other"
+
+- Or always means both
+
+## Lets try a Proof
+
+Conjecture : If x is an even number then x-1 is an odd number. 
+
+Need : 
+
+  Definition : 
+  
+    even = x is even if x/2 is an integer.
+    
+    odd = x is odd if x/2 is not an integer.
+    
+    integer = positive, negative whole numebrs, and 0. (no decimals or fractions). 
+    
+If x (start) then y (end). 
+
+**Table**
+
+```{r first proof, echo=F, message=F}
+Statement <- c("Suppose x is even","Then x/2 is an integer of a=x/2","So 2a=x","Then x-1 = 2a-1","So (x-1)/2=(2a-1)/2","(x-1)/2=a-1/2","a-1/2 is not an integer","Then x-1 is odd")
+Reason <- c("given assumption","Definition of even.","algebra","algebra","algebra", "algebra","a is an integer", "definition of odd")
+proof_table <- data.frame(Statement, Reason) %>% 
+  kable(align = "c") %>% 
+  kable_minimal() %>% 
+  kable_styling(full_width = F)
+proof_table 
+```
+
+**Paragraph**
+
+Suppose x is even. 
+
+Then by the definition $a=\frac{x}{2}$ is an integer. 
+
+So $2a=x$.
+
+Then $x-1=2a-1$ is odd. 
+
+So $\frac{x-1}{2}=\frac{2a-1}{2}=a-\frac{1}{2}$
+
+But a is an integer. 
+
+So $a-\frac{1}{2}$ is not an integer.
+
+Then x-1 is odd, by definition.
+
+Another name for proving contrapositive is proving by way of contradiction. 
+
+Next week this will be a geometry class. 
+
+# W2D3 : Jan. 
+
+# W2D4 : Jan. 
