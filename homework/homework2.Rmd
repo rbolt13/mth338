@@ -1,0 +1,45 @@
+---
+title: "Math 338 - Homework 2"
+author: "Randi Bolt"
+date: "1/21/2022"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+_Answer the following questions. You are encouraged to work with other students and to seek help from the instructor while working on these problems, but please write up your answers on your own._
+
+# 1. (Boyce 2.1) Look at these axioms for length: 
+
+> **Axioms of Length:** Each segment $\overline{AB}$ can be assigned a positive number, called the **length** of $\overline{AB}$, denoted AB, such that the following properties hold: 
+>
+> - The length of the unit segment is 1.
+>
+> - AB = BA
+>
+> - If A, B, C are three points with B between A and C, then AC is $\underline{\text{equal}}$ to AB+BC. 
+>
+> - There exists a uniques point M between A and B, called _midpoint_ of $\overline{AB}$, such that $AM=MB$
+
+## Suppose $A=B$. What number must be assigned as the measure of "segment" $\overline{AB}$ in order to be consistent with the axioms of length? Explain why assigning any other number would result in a contradiction to one or more of the axioms of length. 
+
+# 2. (Boyce 2.2) Look at these axioms for angle measure: 
+
+> **Axioms of Angle Measure:** Every minor angle $\angle ABC$ can be assigned a positive numebr between 0 and 180, called the drgree measure of the angle, so that the following properties hold: 
+>
+> - The degree measure of a right angle $90^o$.
+>
+> - Meausure of $\angle ABC=$ Measure of $\angle CBA$
+>
+> - If point D is in the interior of $\angle ABC$, then the measure of $\angle ABC$ is equal to the sum of the measures of $\angle ABD$ and $\angle DBC$
+>
+> - There exists a unique ray that is the angle bisector of $\angle ABC$.
+
+## Suppose $A=C$. What number must be assigned as the measure of angle $\angle ABC$ in order to be consistent with the axioms of angle measure? Why? 
+
+# 3. (Boyce 2.3) Prove that two segments are congruent if and only if they have the same length. 
+
+# 4. (Boyce 2.6) Suppose $\angle ABC$ and $\angle CBD$ are supplementary, and $\angle ABC \cong\angle CBD$. (Feel free to use the Congruence and Angle Measure Theorem)
+

@@ -343,6 +343,144 @@ Another name for proving contrapositive is proving by way of contradiction.
 
 Next week this will be a geometry class. 
 
-# W2D3 : Jan. 
+# W2D3 : Jan. 11th, 2022
 
-# W2D4 : Jan. 
+## Homework 1 Questions 
+
+1. Truth table questions, filling in the rest of the table. 
+
+2. b. In the future "why" means proof, but here a few sentences of explanation is fine. 
+
+4. Question with models 
+
+- due on Friday 
+
+- week 1 participation form was due on Monday 
+
+## Euclid Elements 
+
+### Definitions 
+
+Def.1: A _point_ is that which has no part.
+
+- can't be broken up, has no sides 
+
+Def.2: A _line_ is breathless length. 
+
+- 1 dimensions, no width 
+
+- nothing in this definition implies a line must be straight, meaning a line can be curvy 
+
+- in this class when we say line, we really mean straight line. 
+
+Def.3: The end of a line are _points_. 
+
+Def.4: A _straight line_ is a line which lies evenly with the points on itself.
+
+- line is staying on same level as points 
+
+Def.5: A _surface_ is that which has length and breadth only. 
+
+- 2 dimensions, can have length and width 
+
+Def.6: The edges of a surface are lines. 
+
+Def.7: A _plane surface_ is a surface which lies evenly with the straight lines on itself. 
+
+Def.8: A _plane angle_ is the inclination to one another of two lines in a plane which meet one another and do not lie in a straight line. 
+
+- going in two directions 
+
+Def.15: A _circle_ is a plane figure contained by one line such that all the straight lines falling upon it from one point among those lying within the figure equal one another. 
+
+- talking about radius 
+
+### Postulates (Axioms)
+
+[Geogebra](https://www.geogebra.org/geometry)
+
+P.1: To draw a straight line from any point to any point.
+
+![](img/img3.png)
+
+P.2: To produce a finite straight line continuously in a straight line. 
+
+![](img/img4.png)
+
+P.3: To describe a circle with any center and radius. 
+
+![](img/img5.png)
+
+P.4: That all right angles equal one another. 
+
+![](img/img6.png)
+
+P.5: That, if straight line falling on two straight lines makes the interior angles on the same side less than two right angles, the two straight lines, if produced indefinitely, meet on that side on which are the angles less than the two right angles. 
+
+![](img/img7.png)
+
+## Notation 
+
+Line segment between A, B : 
+
+- $\overline{AB}$ , line segment 
+
+- $\overleftrightarrow{AB}$ , infinite line 
+
+- $\overrightarrow{AB}$ , ray that is infinite in one direction 
+
+Length of $\overline{AB}$ is AB. 
+
+## Axioms of Length 
+
+Each segment $\overline{AB}$ can be assigned a positive number called its lenght AB such that 
+
+1. Length of the unit segment is 1. 
+
+2. AB = BA. 
+
+3. If B is between A and C then AB+BC=AC
+
+4. $\exists$ a point m between A ,B such that Am=mB, and call m the midpoint. 
+
+### Conjecture
+
+$Am=\frac{1}{2}AB$, if n is the midpoint of $\overline{AB}$. 
+
+By axiom (3) $AB=Am+mB$. 
+
+By axiom (4) $AB=Am+Am$. 
+
+Algebra $AB=2Am\Rightarrow Am=\frac{AB}{2}$. 
+
+## Angles
+
+![](img/img8.png)
+
+Ray: starts and continues forever 
+
+Vertex: point where two lines connect 
+
+Angles: inclination of two lines 
+
+- angle size will be small if lines point in simialr direction, and large if point in opposite directions 
+
+- $\angle ABC$
+
+![](img/img9.png)
+
+"Straight Angle"  is $180^\circ$.
+
+"Right Angle" is half of a straight line.
+
+"Acute" is less than a right angle. 
+
+"Abtuse" bigger than a right angle. 
+
+- needs to be between straight angle and right (between $180^\circ$ and $90^\circ$)
+
+"Minor Angle" is smaller than a straight angle. 
+
+"Major Angle" is larger than a straight angle.
+
+# W2D4 : Jan. 13th, 2022

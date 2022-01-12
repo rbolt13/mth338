@@ -1,0 +1,19 @@
+---
+title: "Math 338 - Homework"
+author: "Randi Bolt"
+date: "1/28/2022"
+output: pdf_document
+---
+
+_Answer the following questions. You are encouraged to work with other students and to seek help from the instructor while working on these problems, but please write up your answers on your own._
+
+# 1. (Boyce 3.4)
+
+# 2. (Boyce 3.5)
+
+# 3. (Boyce 3.13)
+
+# 4. (Boyce 3.17)
+
+
+
