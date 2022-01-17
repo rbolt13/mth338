@@ -18,7 +18,7 @@ library(magrittr) # %>%
 ```
 
 
-# W1: Jan. 4th, 2022
+# W1D1: Jan. 4th, 2022
 
 ## Intro 
 
@@ -116,7 +116,7 @@ Q : Do these models still work?
 
 B does not work with zero as a square. 
 
-# W1: Jan. 6th, 2022
+# W1D2: Jan. 6th, 2022
 
 Goal of course : Use axioms to prove theorems. 
 
@@ -343,7 +343,7 @@ Another name for proving contrapositive is proving by way of contradiction.
 
 Next week this will be a geometry class. 
 
-# W2D3 : Jan. 11th, 2022
+# W2D3: Jan. 11th, 2022
 
 ## Homework 1 Questions 
 
@@ -485,4 +485,185 @@ Angles: inclination of two lines
 
 "Major Angle" is larger than a straight angle.
 
-# W2D4 : Jan. 13th, 2022
+# W2D4: Jan. 13th, 2022
+
+## Quiz 1 
+
+- Due Friday 1/21
+
+- recrod a short presentation or create a slideshow explaining your proof 
+
+- Suppose two angles are verticle. Prove that they are congruent. 
+
+- wont be graded harshly, notes are open
+
+- don't google it! 
+
+## Review of Definitions 
+
+B is a vertex. 
+
+$BA$ and $BC$ are rays. 
+
+$\angle ABC$ 
+
+straight angle (180)
+
+right angle = $\frac{1}{2}$ straight 
+
+acute : $\angle$ less than right 
+
+obtuse : bigger than right but not bigger than straight 
+
+minor  : less than straight 
+
+major : bigger than a straight 
+
+![](img/img10.png)
+$\angle ABC$, $\angle ABD$ are supplementary angles
+
+- supplementary and straight strat with "s"
+
+![](img/img11.png)
+
+$\angle ABC$, $\angle ABD$ are complementary angles 
+
+![](img/img12.png)
+
+Adjacent : share vertex and a ray 
+
+![](img/img13.png)
+
+Adjacent : $\angle ABD$, $\angle DBC$
+
+Vertical : $\angle ABD$, $\angle FBC$
+
+Vertical : $\angle DBC$, $\angle ABF$
+
+![](img/img14.png)
+
+$\overrightarrow{\rm BP}$ biscets $\angle ABC$ if $\angle ABP$, $\angle PBC$ to have "same measure"
+
+![](img/img15.png)
+
+Perpendicular bisector 
+
+- m is the midpoint 
+
+- $\angle PMA$, $\angle PMB$ have the "same measure"
+
+## Axioms of Angle Meaasure 
+
+Every $\underline{\text{minor}}$ angle can be assigned a number between 0 and 180 called its degree measure ($m\angle ABC$) such that 
+
+1. Right angle measures $90^\circ$
+
+2. $m\angle ABC=m\angle CBA$
+
+- ![](img/img16.png)
+
+3. If D is the interior of $\angle ABC$, then $m\angle ABC=m\angle ABD+m\angle BDC$
+
+- ![](img/img17.png)
+
+4. There exists a **unique** ray that is the angle bisector of $\angle ABC$. 
+
+- only one way to break it in half
+
+- ![](img/img18.png)
+
+--- 
+
+Exercise : $m\angle ABD=\frac{1}{2}m\angle ABC$
+
+- same steps as for a midpoint 
+
+- try for practice 
+
+--- 
+
+## Congruence
+
+![](img/img20.png)
+
+Not equal but "same" $\underline{\text{congruent}}$. 
+
+$\underline{\text{Isometry}}$ : map preserves distance and angle measure. 
+
+  othercouse : map means function from $\mathbb{R}^2$ (plane) to to itself $f((x,y))=(z,w)$.
+  
+### "rigid motions" 
+
+- $\underline{\text{translation}}$ : move all the points along a vector $\overrightarrow{\rm v}$. 
+
+    - ![](img/img21.png)
+    
+- $\underline{\text{rotation}}$ : Pick center 0, angle $\theta$, takes P to P' on a circle with center 0, radius $\overline{OP}$, $\angle POP'=\theta$
+
+  - ![](img/img22.png)
+  
+- $\underline{\text{reflection}}$ : Pick line b.  
+
+  - ![](img/img23.png)
+  
+  - points on b dont move. 
+  
+  - Points not on b P goes to P' where b is perpendicular bisector of $\overline{PP'}$
+  
+  - m midpoint of PP', b making right angle $\overline{PP'}$
+  
+- Isometries are $\underline{\text{compositions}}$ of translations, rotations, reflections 
+
+Two geometric figures are $\underline{\text{congruent}}$ if there is an isometry that superimposes one on the other. 
+
+- perfectly match up if you can move one to match the other. 
+
+  - $x \cong y$
+  
+### Congrunce Rules 
+  
+$\cong$ Congruence is an $\underline{\text{equivalence relations}}$ 
+
+1. Reflective:  $x\cong x$
+
+2. Symmetric:  If $x\cong y$ then $y\cong x$
+
+3. Transitive:  If $x\cong y$ and $y\cong z$ then $x\cong z$. 
+
+## Theorem (Congruence and Length)
+
+> $\overline{AB}\cong \overline{CD}\Leftrightarrow AB=CD$ 
+> 
+> 1. If $\overline{AB}\cong \overline{CD}$ then $AB=CD$. (if you know congruence then you can find length)
+>
+> 2. If $AB=CD$ then $\overline{AB}\cong \overline{CD}$ (if you know lengths then you know congruence)
+
+The first one will be easier becasue there is more to work with (Going cookie to crumb, instead of crumb to cookie).
+
+### Proof 
+
+1. If $\overline{AB}\cong \overline{CD}$ then $AB=CD$.
+
+Suppose $\overline{AB}\cong \overline{CD}$. Then there is an isometry that superimposes $\overline{AB}$ on $\overline{CD}$. So let $f$ be that isometry : $f(\overline{AB})=\overline{CD}$. Isometrics preserve distance. The length of $f(\overline{AB})$ equals the length of $\overline{AB}$. So by substitution $CD=AB$. 
+
+2. If $AB=CD$ then $\overline{AB}\cong \overline{CD}$. 
+
+Suppose $AB=CD$. There is a translation along the $\overrightarrow{\rm v}$ from A to C. 
+
+$f_1(A)=C$ (translation)
+
+![](img/img23.png)
+
+Then $f_2$ rotates $f_1(\overline{AB})$ by $\theta = \angle DCf_1(B)$, center $f_1(A)$. 
+
+![](img/img24.png)
+
+Then by the definition of rotation then $f_2(f_1(B))=D$ takes $f_2(f_1(\overline{AB}))=\overline{CD}$. Therefore they are congruent. 
+
+- note that 2. is a constructive proof. 
+
+Same Theorem for Angles will be done next class in groups. 
+
+# W3D5: Jan. 17th, 2022
+
+# W3D6: Jan. 19th, 2022
