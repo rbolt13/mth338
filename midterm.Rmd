@@ -664,6 +664,7 @@ Then by the definition of rotation then $f_2(f_1(B))=D$ takes $f_2(f_1(\overline
 
 Same Theorem for Angles will be done next class in groups. 
 
+
 # W3D5: Jan. 17th, 2022
 
 # W3D6: Jan. 19th, 2022
