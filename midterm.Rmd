@@ -12,9 +12,12 @@ output:
     theme: journal
 ---
 
-```{r, echo=F, message=F}
+```{r set up, echo=F}
 library(kableExtra) # tables 
 library(magrittr) # %>% 
+knitr::opts_chunk$set(error=FALSE, 
+                      message= FALSE,
+                      warning=FALSE)
 ```
 
 
@@ -664,7 +667,138 @@ Then by the definition of rotation then $f_2(f_1(B))=D$ takes $f_2(f_1(\overline
 
 Same Theorem for Angles will be done next class in groups. 
 
-
 # W3D5: Jan. 17th, 2022
+
+Can write up corrections to earn homework back by next Monday (if you want). 
+
+## Homework 1 : Common Issues 
+
+1. Non-collinear : For no pair is a point between the other two. 
+
+- "For no" is important to include 
+
+Collinear : 3 points are collinear if 1 of the points is between the other two. 
+
+2. If P then Q, conditional statement 
+
+"negation", X negation of x = not x. 
+
+Result will not be an if then statement. 
+
+![](img/img25.png)
+
+"Not" : If P then Q 
+
+```{r, echo=F}
+knitr::include_graphics("img/img26.png")
+```
+
+- only the second case in the above image is If P then not Q. 
+
+The correct answer formal logic is "P or not Q".  
+
+Example : If Sam is a beagle then Sam is a dog. 
+
+Negation : Sam could be a beagle and not a dog. 
+
+## Quiz
+
+Due on Sunday. Prove on you own, but can use your own notes. 
+
+## Congruence
+
+Congruence: $x\cong y$ if there is an $\underline{\text{isometry}}$ that superimposes x on y. 
+
+- isometry is a map that preserves distance and angles 
+
+  - translation (move without turning)
+  
+  - rotation 
+  
+  - reflection 
+  
+  - combination of these
+  
+We showed $\cong$ is an equivalence relation.
+
+- $x\cong x$
+
+- $x\cong y \Rightarrow y\cong x$
+
+- $x\cong y , y \cong z\Rightarrow x\cong z$
+
+Congruence and Length : $\overline{AB}$ , $\overline{CD}$ are line segments the $$\overline{AB}\cong\overline{CD}\Leftrightarrow AB = CD$$
+
+Q : What makes if and only if annoying to prove? 
+
+A : We had to prove $\overline{AB}\cong\overline{CD}\Rightarrow AB=CD$ and $AB=CD\Rightarrow \overline{AB}\cong\overline{CD}$
+
+## Theorem: (Congruence and Angle Measure)
+
+$\angle ABC\cong\angle DEF$ if and only if $m\angle ABC=\angle DEF$.
+
+- note this will be used on quiz 
+
+- formal proof will be in week 3 google doc 
+
+## Parallell Lines
+
+![](img/img27.png)
+
+![](img/img28.png)
+
+![](img/img30.png)
+
+![](img/img31.png)
+
+## Euclids 5th Postulate 
+
+That, if a straight line falling on two straight lines makes the interior angles on the same side less than two right angles, the two straight lines, if produced indefinitely, meet on that side on which are the angles less than the two right angles.
+
+Rewritten : If a line is transversal to two others, and the supplementary interior angles on one side add to less than 180$^\circ$, the lines will intersect on that side. 
+
+Def: Parallel Lines are 2 lines (2 different lines) in the plane that do not intersect.
+
+## Theorem : Supplementary Interior Angle Theorem 
+
+If two lines are parallel then the supplementary interior angles add to $180^{\circ}$.
+
+Proof: 
+
+![](img/img32.png)
+
+The lines are parallel so they don't intersect. From Euclid's 5th axiom, $m\angle ABC+m\angle DCB\geq 180^\circ$. We know $m\angle FCB+m\angle DCB=180^\circ$ and $m\angle EBC+m\angle ABC=180^\circ$. 
+
+We know :
+
+- $m\angle FCB+m\angle DCB=180^\circ$
+
+- $m\angle EBC+m\angle ABC=180^\circ$
+
+- $m\angle EBC+m\angle FCB\geq 180^\circ$
+
+- $m\angle ABC+m\angle DCB\geq 180^\circ$
+
+Want : $m\angle ABC + m\angle DCB=180^\circ$
+
+We also know (with some algebra) : 
+
+- $m\angle ABC = 180^\circ-m\angle EBC$
+
+- $m\angle DCB = 180^\circ-m\angle FCB$
+
+And, 
+
+- $360^\circ-m\angle EBC-m\angle FCB\geq 180^\circ$
+
+Then, 
+
+- $180^\circ\geq m\angle EBC+m\angle FCB\geq180^\circ$
+
+So $m\angle EBC+m\angle FCB=180^\circ$. 
+
+We can use algebra to show from here that similarly $m\angle ABC + m\angle DCB=180^\circ$. 
+
+Next class we will cover Alternating Interior Angle Theorem, and to triangles and quadrilaterals. We will learn all of triangle theorems in one day. 
 
 # W3D6: Jan. 19th, 2022
