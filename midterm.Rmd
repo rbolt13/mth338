@@ -18,6 +18,7 @@ library(magrittr) # %>%
 knitr::opts_chunk$set(error=FALSE, 
                       message= FALSE,
                       warning=FALSE)
+library(LearnGeom)
 ```
 
 
@@ -802,3 +803,192 @@ We can use algebra to show from here that similarly $m\angle ABC + m\angle DCB=1
 Next class we will cover Alternating Interior Angle Theorem, and to triangles and quadrilaterals. We will learn all of triangle theorems in one day. 
 
 # W3D6: Jan. 19th, 2022
+
+Friday : Homework 2 is due
+
+Sunday : Quiz 2 is due 
+
+Monday : Participation form , and homework rework (can earn back all the corrections)
+
+## Example 
+
+```{r, echo=F}
+knitr::include_graphics("img/img34.png")
+```
+
+Theorem: If 2 lines are parallel intersected a 3rd transversal lines, alternate interior angles are congruent. 
+
+1 and 3 are alternate interior angles. 
+
+## Proof Ingredients 
+
+- supplementary interior angles add to $180^\circ$
+
+- definition of supplementary angles : together they make a straight angle (add to $180^\circ$)
+
+- congruence and angle measure theorem 
+
+Proof :
+
+```{r, echo = F}
+knitr::include_graphics("img/img35.png")
+```
+
+Let our first angle be $\angle AEF$, and our 2nd be $\angle EFC$. 
+
+("Our goal is to say something about their measure")
+
+$\angle BEF$ and $\angle AEF$ are supplementary, so $m\angle BEF + m\angle AEF=180^\circ$. 
+
+("What can we say about the pink and blue angle")
+
+Since $\overline{AB}$ and $\overline{DC}$ are parallel the supplementary interior angles $\angle BEF$ and $\angle BFC$ have measure that add to $180^\circ$ by the theorem for supplementary interior angles. 
+
+ - $m\angle AEF + m\angle BEF = 180^\circ$
+ 
+ - $m\angle BEF + m\angle EFC = 180^\circ$
+ 
+So $m\angle AEF + m\angle BEF = m\angle BEF + m\angle EFC$ and $m\angle AEF = m\angle EFC$.
+
+By the Congruence and Angle measure Theorme, $\angle AEF \cong \angle EFC$. 
+
+## Triangles 
+
+Triangles: Consist of 3 straight line segments meeting in 3 vertices. 
+
+```{r, echo = F}
+knitr::include_graphics("img/img36.png")
+```
+
+### Types 
+
+```{r, echo = F, out.width = "30%", fig.align='left'}
+knitr::include_graphics("img/img37.png")
+```
+
+Equilateral: All 3 sides have the same length
+
+```{r, echo = F, out.width = "30%", fig.align='left'}
+knitr::include_graphics("img/img38.png")
+```
+
+
+Isosceles: 2 sides are the same length 
+
+```{r, echo = F, out.width = "30%", fig.align='left'}
+knitr::include_graphics("img/img39.png")
+```
+
+Scalene: all sides are different 
+
+```{r, echo = F, out.width = "30%", fig.align='left'}
+knitr::include_graphics("img/img40.png")
+```
+
+Right: Has a $90^\circ$ angle in it. 
+
+```{r, echo = F, out.width = "30%", fig.align='left'}
+knitr::include_graphics("img/img41.png")
+```
+
+Acute: All angles are less than $90^\circ$.
+
+```{r, echo = F, out.width = "30%", fig.align='left'}
+knitr::include_graphics("img/img42.png")
+```
+
+Obtuse: 1 angle is more than $90^\circ$
+
+### Theorem: Angles inside a triangle add to $180^\circ$
+
+```{r, echo = F, out.width = "30%", fig.align='center'}
+knitr::include_graphics("img/img44.png")
+```
+
+Proof: 
+
+The top line (that touches the top of the triangle at A) is running parallel to the base of the triangle. 
+
+Notice that the pink angles are the same, and the red angles are the same. 
+
+This indicates that the pink angle + the yellow angle + the red angle = a straight angle which is $180^\circ$. 
+
+Therefore $m\angle ABC + m\angle BCA +m\angle CAB=180^\circ\quad\quad\square$. 
+
+### Thm (SAS) 
+
+Suppose $\triangle ABC$ and $\triangle EDF$ satisfy:
+
+- $\overline{AB}\cong\overline{DE}$ (side)
+
+- $\angle ABC \cong \angle DEF$
+
+- $\overline{BD}\cong\overline{EF}$ (side)
+
+Then $\triangle ABC \cong \triangle DEF$. 
+
+Proof :
+
+(Note that nothing _about_ picture can be in your proof. i.e. can't say because two things look the same in a picture ... )
+
+```{r, echo = F, out.width = "30%", fig.align='center'}
+knitr::include_graphics("img/img45.png")
+```
+
+We know that:
+
+- $\overline{AB}\cong\overline{DE}$  
+
+- $\overline{BC}\cong\overline{EF}$ 
+
+- $\angle{ABC}\cong\angle{DEF}$
+
+We know there is an isometry f that takes $\overline{AB}$ and superimposes it on $\overline{DE}$. 
+
+```{r, echo = F, out.width = "30%", fig.align='center'}
+knitr::include_graphics("img/img46.png")
+```
+
+- "Lets agree that if C=F then we are done, b what happens if C is on the opposite side of f?"
+
+If C and F are on opposite sides of $\overline{AB}$ after f, do reflection g over $\overline{AB}$. 
+
+```{r, echo = F, out.width = "30%", fig.align='center'}
+knitr::include_graphics("img/img47.png")
+```
+
+Since $\angle ABC \cong \angle DEF$, c must lie on $\overrightarrow{EF}$. 
+
+Since $\overline{BC}\cong \overline{EF}$ they have the same length so c lies on F after f, g. 
+
+Therefore $\triangle ABC\cong \triangle DEF\quad\quad\quad\square$. 
+
+---
+
+We $\underline{\text{have}}$ SAS (side angle side)
+
+There are 
+
+- ASA (angle side angle)
+
+- AAS (angle angle side)
+
+- SSS (side side side)
+
+There is not a $SSA$. 
+
+# W4D7: Jan. 25th, 2022
+
+# W4D8: Jan. 27th, 2022
+
+# W5D9: Feb. 1st, 2022
+
+# W5D10: Feb. 3rd, 2022
+
+**MIDTERM**
+
+
+
+
+
+

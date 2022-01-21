@@ -1,0 +1,31 @@
+---
+title: "Quiz 1"
+author: "Randi Bolt"
+output:
+  slidy_presentation: default
+  ioslides_presentation: default
+  beamer_presentation: default
+subtitle: Suppose two angles are vertical. Prove that they are congruent.
+---
+
+## Definitions 
+
+Let's begin with some definitions :
+
++ Angles: 
+
++ Vertical: 
+
++ Congruence 
+
+
+## Picture 
+
+Here is a picture. 
+
+
+## Theorem (Congruence and Angle Measure)
+
+Here is a theorem. 
+
+
