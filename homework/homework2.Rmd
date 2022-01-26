@@ -33,7 +33,7 @@ _Answer the following questions. You are encouraged to work with other students 
 
 (iii) Define C as a point between A and B. Then $AC=AB+BC\Rightarrow0=0+0$, because all three of these points are in the same spot with no measure for length between any of them. 
 
-(iv) Similar to (iii), m is a point between A and B called the midpoint of $\overline{AB}$ such that $AM=MB\Rightarrow0=0$. 
+(iv) For there to exist a unique midpoint M between two points that are the same it would break logic for M, A, or B to be anything but 0 because there is no middle point between two points with no length. 
 
 # 2. (Boyce 2.2) Look at these axioms for angle measure: 
 
@@ -57,7 +57,7 @@ _Answer the following questions. You are encouraged to work with other students 
 
 (iii) If point D is in the interior of $\angle ABC$, then $m\angle ABD+m\angle DBC=m\angle ABC\Rightarrow 0+0=0$. 
 
-(iv) The unique ray that is the angle bisector of $\angle ABC$ is also zero, since A and C are in the same spot. 
+(iv) Since A and C are the same, the angle $\angle ABC$ is more of a line segment $\overline{AB}=\overline{CB}$. It would again break logic for an angle or its angle bisector to be any value other than no value, 0, becasue the only value inbetween nothing is nothing. 
 
 # 3. (Boyce 2.3) Prove that two segments are congruent if and only if they have the same length. 
 
@@ -113,11 +113,15 @@ Suppose $m\angle ABE=m\angle CBD$.
 
 There is a rotation $f_1(m\angle ABE)$ about B by $\theta=180^\circ$. 
 
+It is given that $\angle ABC$ and $\angle CBD$ are supplementary, so we know that point $f_1(A)=D$, $f_1(C)=E$, and $f_1(B)=B$. 
+
+It is also given that $\angle ABC \cong\angle EBD$, which preserves angles, so we also know that $f_1(E)=C$. 
+
 Then by the definition of rotation $f_1(m\angle ABE)=m\angle CBD$. 
 
 Therefore $\angle ABE\cong\angle CBD\quad\quad\square$.
 
-```{r, echo=F, out.width="80%", fig.cap="Image of Problem 4", fig.align="center"}
+```{r, echo=F, out.width="60%", fig.cap="Image of Problem 4", fig.align="center"}
 knitr::include_graphics("img.jpg")
 ```
 

@@ -979,6 +979,218 @@ There is not a $SSA$.
 
 # W4D7: Jan. 25th, 2022
 
+Quiz's will be graded by Wednesday and Thurseday. 
+
+- taking time to give a lot of feedback
+
+Homework 1 Solutions will be posted today after class
+
+- HW2 Solutions will be posted next Tuesday 
+
+- Professors solutions may be different than ours 
+
+Boyce Notes will have all of our definitions and theorems that we can use. 
+
+Thursday we will discuss the midterm. 
+
+## Homework 2 
+
+1. $A=B$, $AB=0$
+
+Conj: If $A=B$ then $AB=0$. 
+
+Proof: Suppose by way of contradiction (BWOC) that $AB\ne 0$. 
+
+Then $AB>0$. 
+
+Suppose we choose C so B is between A and C. 
+
+Then $AB+BC=AC$ (length axiom 3)
+
+$\Rightarrow AB+BC=BC$ (A=B)
+
+$\Rightarrow AB=0$ (subtract $BC$ from both sides)
+
+This contradicts our assumption that $AB>0$. So $AB=0$. $\quad\quad \square$
+
+2. $A=C$, $m\angle ABC=0$
+
+$\angle ABC$, A,C are equal. 
+
+$\Rightarrow m\angle ABC$. 
+
+Imagine you have $\angle ABC$, and imagine there is an $\angle DBC$
+
+![](img/img48.png)
+
+- D could also be and angle bisector 
+
+$m\angle BDC = m\angle DBA+m\angle ABC$
+
+- whereever you see a C or A you are allowed to replace it with the other one. 
+
+$\Rightarrow m\angle BDC = m\angle DBC+m\angle ABC$
+
+$\Rightarrow 0=m\angle ABC$.
+
+Email homework corrections by next Monday. 
+
+## Quadrilaterals 
+
+4 sided figure in the plane (drawn on a flat surface), where the edges are straight lines. 
+
+![](img/img49.png)
+
+### Parallelogram
+
+Both pairs of opposite sides are parallel 
+
+![](img/img50.png)
+
+### Trapezoid 
+
+At least 1 pair of opposite sides is parallel. 
+
+![](img/img51.png)
+
+### Rhombus
+
+Parallelogram, all sides are same length 
+
+![](img/img52.png)
+
+### Rectangle 
+
+Parallelogram (whose opposite sides have equal length) whose internal angles are all right angles. 
+
+### Square 
+
+Rectangle whose sides are all equal length. 
+
+## Parallelogram Thm
+
+(part 4 of Boyce Notes)
+
+Let ABCD be a parallelogram. The following are equivalent: 
+
+1. ABCD is a parallelogram. (opposite sides are parallel)
+
+2. $\angle DAB \cong \angle BCD$ and $\angle ABC\cong \angle CDA$ (angles that are across from each other are congruent)
+
+3. $AB=CD$ and $BC=DA$ (opposite sides have equal measure)
+
+4. $\overline{AC}$ and $\overline{BD}$ bisect each other. (diagnals bisect each other)
+
+(8 things we would have to show in a proof, but there is a way we can prove this that is the least amount of work)
+
+![](img/img53.png)
+
+Meaning, we only need to prove four parts. 
+
+### Toolkit
+
+* Euclid's 5th axiom 
+
+* Angles and parallel lines 
+
+  - vertical angles are congruent 
+  
+  - alternate interior angles are congruent 
+  
+  - corresponding angles are congruent 
+  
+  - supplementary anglesa add to 180 
+  
+* Triangles : Angles add to  180 
+
+  - Congruence: SAS, ASA,SSS, AAS 
+  
+### Proof - part 1
+
+$1\Rightarrow 2$ : If ABCD is a parallelogram then 
+
+- $\angle DAB\cong \angle BCD$
+
+- $\angle ABC\cong \angle CDA$
+
+![](img/img54.png)
+  
+We also know, 
+
+$m\angle ABC+m\angle BCD=180^\circ $ (1)
+
+$m\angle DAB+m\angle ABC=180^\circ $ (2)
+
+$m\angle BCD+m\angle CDA=180^\circ $ (3)
+
+$m\angle DAB+m\angle CDA=180^\circ $ (4) (written on pictures)
+
+All of these hold because they are supplementary interior angles. 
+
+Using these equations, 
+
+$m\angle BCD=180^\circ -m\angle ABC=m\angle DAB$
+
+By the congruence and angle measure theorem $\angle DAB\cong \angle BCD$. 
+
+Similarly 
+
+$m\angle ABC=180^\circ -m\angle BCD=m\angle CDA$
+
+By the congruence and angle measure theorem $\angle ABC\cong \angle BCD$. 
+
+### Proof - part 2
+
+($s\Rightarrow 3$) ABCD is a quadrilateral. 
+
+If $\angle DAB\cong \angle BCD$ and 
+
+$\angle ABC\cong \angle CDA$ then 
+
+$AB=CD$ and $BC=DA$
+
+(we don't know anything about parallel, so we will use our triangle theorems)
+
+![](img/img55.png)
+
+$\triangle ABC$ and $\triangle CDA$
+
+- It is important the order of the letters for triangles 
+
+- want $\overline{AB}$ to match $\overline{CD}$
+
+- and $\overline{BC}$ to match $\overline{DA}$
+
+We know that $AC=CA$ and that $\angle ABC\cong \angle CDA$ ... 
+
+![](img/img57.png)
+
+"What can we say about $\angle$ 1, 2, 3, and 4"
+
+$m\angle 1+m\angle 2 = m\angle 3+m\angle 4$ by assumption. 
+
+We also know $m\angle ABC+ m\angle 2 + m\angle 3=180^\circ$ and 
+
+$m\angle CDA+ m\angle 1 + m\angle 4=180^\circ$
+
+We can also say, 
+
+$m\angle 2+m\angle 3=180^\circ-m\angle ABC$
+
+$m\angle 1+m\angle 4=180^\circ-m\angle CDA$
+
+So, $(m\angle 2+m\angle 3=m\angle 1+m\angle 4)$
+
+Also, $(m\angle 1+m\angle 4=m\angle 2+m\angle 3)$ 
+
+Then, $(m\angle 2+m\angle 3=m\angle 1+m\angle 4)-(m\angle 1+m\angle 4=m\angle 2+m\angle 3)$
+
+$\Rightarrow = m\angle 3-m\angle 1=m\angle 1-m\angle 3$
+
+$\Rightarrow = 2m\angle 3=2m\angle 1 - m\angle 3= m\angle 1$
+
+Now we can say that $\triangle ABC \cong \triangle CDA$, hence their sides have the same lengths. Therefore $AB=CD$ and $BC=DA$.
+
 # W4D8: Jan. 27th, 2022
 
 # W5D9: Feb. 1st, 2022
