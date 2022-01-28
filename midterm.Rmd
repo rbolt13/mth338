@@ -1193,11 +1193,220 @@ Now we can say that $\triangle ABC \cong \triangle CDA$, hence their sides have 
 
 # W4D8: Jan. 27th, 2022
 
+Midterm will be during class on Thurseday, and can be taken remotely. 
+
+Remote Exam Two Options: 
+
+1. Email before exam so we can print 
+
+2. Post at start of Exam, and look at it on screen. 
+
+Everyone will need to be  on zoom with camera on. 
+
+Midterm will go through triangle theorm stuff, meaning non of the parallelorgram stuff will be on the midterm. 
+
+Next class will be half review, and half new material. 
+
+## Practice Problems 
+
+1. Is “x divides y evenly” a model for the following Axiom System:
+
+-  2 is better than 8
+
+-  3 is better than 9
+
+- If x is better than y and y is better than z then x is better than z.
+
+True or False (explain your answers):
+
+- If 2 lines segments are congruent then one is a translation of the other in the plane.
+
+- If <ABC and <CBD are supplementary then B is between A and D.
+
+- The negation of “If it is snowing then it is cold” is “If it is not cold then it is not snowing.” 
+
+Finish this proof:
+
+- Claim: Alternate interior angles are congruent.
+
+- Proof: Suppose AB and CD are parallel, E is between A and B, and F is between C and D. We will show that <AEF is congruent to <DFE.
+
+- Because <AEF and <BEF are supplementary, then their measures add to 180 degrees.
+
+- Because (fill in the blank), the measure of <BEF and <DFE add to 180 degrees. 
+
+- Then m<AEF+m<BEF=m<BEF + m<DFE so m<AEF = m<DFE.
+
+- So because (fill in the blank), <AEF and <DFE are congruent.
+
+Prove that if BD is a bisector of <ABC, then m<ABD = (½)m<ABC. 
+
+## HW 3 (Due Week 4)
+
+If ABCD is a parallelogram ABCD is a rectangle $\Leftrightarrow$ $\overline{AC}$ and $\overline{BD}$ are congruent. 
+
+- know it's a parallelogram, and everything in that theorem
+
+  - opposite angles are congruent
+  
+  - opposite sides have the same length
+  
+  - diagnols bisect each other
+  
+Claim: If $\overline{AC}\cong  \overline{BD}$ then ABCD is a rectangle. 
+
+![](img/img58.png)
+
+If we know that the orange angle is a right angle then we also know that the green angle is a right angle because of the parallelogram theorem that says opposite angles are congruent. 
+
+We also know that if the orange angle is then the pink angle on the same side is also a right angle becasue same side interior angles add up to 180. 
+
+The remaining pink angle is also a right angle becasue of the parallelorgram theorem that says opposite angles are congruent. 
+
+Hint : $m\angle 1+m\angle 2 = 180$, can you show that $\angle 1\cong\angle 2$. If you could show that, then that would tell us that they both have the same measurement of 90 degrees because two things that are the same size that add up to 180 are 90. 
+
+Note: This is the sort of "large proof" that wouldn't be on the exam. Something we spend a week on, not just do in an hour. 
+
+## Last Class: Parallelogram Theorem Proof
+
+ABCD is a parallelogram. Then the following are equivalent that the folloing are equivalent (TFAE). 
+
+Let ABCD be a parallelogram. The following are equivalent: 
+
+1. ABCD is a parallelogram. (opposite sides are parallel)
+
+2. $\angle DAB \cong \angle BCD$ and $\angle ABC\cong \angle CDA$ (angles that are across from each other are congruent)
+
+3. $AB=CD$ and $BC=DA$ (opposite sides have equal measure)
+
+4. $\overline{AC}$ and $\overline{BD}$ bisect each other. (diagnals bisect each other)
+
+Last class we proved 
+
+- 1 $\Rightarrow$ 2
+
+- 2 $\Rightarrow$ 3
+
+Now we need to prove 
+
+- 3 $\Rightarrow$ 4
+
+- 4 $\Rightarrow$ 1
+
+Then everything implies everything. 
+
+### 3 $\Rightarrow$ 4
+
+Suppose $AB=CD$, $BC=DA$
+
+![](img/img60.png)
+
+Want to show: $\overline{CD}$, $\overline{BD}$ bisect each other. 
+
+In other words: $AE=EC$, $DE=EB$
+
+By SSS, $\triangle ABD \cong \triangle CDB$ and $\triangle ABC\cong \triangle CDA$
+
+By ASA $\triangle AED \cong \triangle CEB$
+
+$\Rightarrow AE=CE$, $DE=BE$
+
+### 4 $\Rightarrow$ 1
+
+If $\overline{AC}$, $\overline{BD}$ bisect each other then ABCD is a parallelogram. 
+
+![](img/img61.png)
+
+Know $AE=EC$ and $BE=ED$
+
+Suppose $AC$, $BD$ bisect each other. 
+
+Vertical angle theorem $\Rightarrow$ $\angle AED\cong \angle BEC$, $\angle AEB\cong \angle CED$.  
+
+SAS $\Rightarrow \triangle AED\cong \triangle CEB$ and $\triangle AEB\cong \triangle CED$.
+
+![](img/img62.png)
+
+Want: $m\angle 1 +m\angle 2 + m\angle 3 + m\angle 4=180^\circ$
+
+$m\triangle ACD= m\angle 1 +m\angle 2 + m\angle 3 + m\angle 4=180^\circ$
+
+$\Rightarrow$ By Euclid's 5th axiom since the supplementary interior angles for $\overline{AB}$ and $\overline{CD}$ add to $180^\circ$, $\overline{AB}$ is parallel to $\overline{CD}$. Same argument $\overline{AD}$m $\overline{BC}$ are parallel. 
+
+## Prove area of a trapezoid is bh
+
+Activity 1: Use the axioms of area to prove that the area of a trapezoid is the product of its height and the arithmetic mean of its bases.
+
+## Axioms of Area
+
+1. To every polygonal region (space enclosed by straight lines in the plane) there corresponds a unique positive number called $\underline{area}$. 
+
+2. If 2 tirangles are congruent their areas are equal. 
+
+3. If $R=R_1\cup R_2$ and $R_1\cap R_2$ is a finite number of segments or points, then the area of $R$ is the sum of the areas of $R_1+R_2$. 
+
+4. The area of a rectangle is its base times its height. 
+
+## Ex: 
+
+Conjecture: The area of a parallelogram ABCD is $AB=CX$ where $X$ is on the $\overleftrightarrow{AB}$ and $\overleftrightarrow{CX}$ is perpendicular to $\overleftrightarrow{AB}$. 
+
+![](img/img62.png)
+
+Axiom 3: Area ($\triangle AYD$) + Area($AXCY$) + Area ($\triangle BXC$) = Area($ABCD$) (equation 1)
+
+Axiom 4: Area(AXC) = $AC\cdot CX$.
+
+Axiom 2: $\triangle AYD\cong \triangle CXB$ then areas are equal. 
+
+![](img/img63.png)
+
+Put Z on $\overleftrightarrow{AB}$ so that $\overline{DZ}$ is perpendicular to $\overleftrightarrow{AB}$. 
+
+Area(AZDY) = Area($\triangle AZD$) + Area($\triangle AYD$)
+
+![](img/img65.png)
+
+AAS $\Rightarrow$ 2Area($\triangle AZD$)
+
+$AY\cdot DY=2 Area(\triangle AYD)$
+
+Parallelogram : 
+
+- Rectangle: $AX\cdot CX$
+
+- Triangle: $\frac{1}{2}(AY\cdot DY)$
+
+Equation 1: Area ($\triangle AYD$) + Area($AXCY$) + Area ($\triangle BXC$) = Area($ABCD$)
+
+$\Rightarrow AX\cdot CX+(\frac{1}{2}(AY\cdot DY))+(\frac{1}{2}(AY\cdot DY))=AB\cdot CX$
+
+$\Rightarrow AX\cdot CX+CX\cdot DY=AB\cdot CX$
+
+$\Rightarrow AX\cdot CX+XB\cdot CX$
+
+$\Rightarrow (AX+XB)CX$
+
+- $(AX+XB)$ Line segment, axiom 3
+
+## Circle Prep. 
+
+How do we get the area of a circle? 
+
+- Can you cut a circle into areas of squares and triangles? 
+
+![](img/img66.png)
+
+- Begin to reach a problem in  calculus called a limit. 
+
 # W5D9: Feb. 1st, 2022
 
 # W5D10: Feb. 3rd, 2022
 
 **MIDTERM**
+
+
+
 
 
 

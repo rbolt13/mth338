@@ -7,13 +7,88 @@ output: pdf_document
 
 _Answer the following questions. You are encouraged to work with other students and to seek help from the instructor while working on these problems, but please write up your answers on your own._
 
-# 1. (Boyce 3.4)
+# 1. (Boyce 3.4) Prove the Corresponding Angle Theorem 
 
-# 2. (Boyce 3.5)
+Suppose that $\overleftrightarrow{AB}$ and $\overleftrightarrow{AC}$ are parallel lines, and that $\overleftrightarrow{AC}$ is a transversal such that $B$ and $D$ lie on the same sid eof $\overleftrightarrow{AC}$. Let E be a point on $\overleftrightarrow{AC}$ such that C is between E and A. Then $\angle BAE\cong DCE$. 
 
-# 3. (Boyce 3.13)
+```{r, echo = F, out.width = "40%", fig.align='center', fig.cap='Two parallel lines cut by a transversal line, showing that corresponding angles are congruent'}
+knitr::include_graphics("img2.png")
+```
 
-# 4. (Boyce 3.17)
+$\underline{\text{Proof:}}$
+
+i) $\angle BAE\cong DCE\Rightarrow m\angle BAE = m\angle DCE$
+
+Suppose $\angle BAE\cong DCE$. $\exists$ an isometry $f$ that superimposes $\angle BAE$ onto $\angle DCE$. Isometries preserve angle measure, therefore $m\angle BAE = m\angle DCE$
+
+ii) $m\angle BAE = m\angle DCE\Rightarrow \angle BAE\cong DCE$
+
+Let F be a point on $\overleftrightarrow{AB}$ and G be a point on $\overleftrightarrow{CD}$ such that F and G lie on the opposite side of $\overleftrightarrow{AC}$ as B and D (see **Figure 1** for reference).  
+
+\begin{equation}\label{1ii}
+\begin{split}
+m\angle BAE &= 180^\circ -m\angle FAE\\
+&=m\angle GCA\\
+&=180^\circ-m\angle ACD\\
+&= m\angle DCE
+\end{split}
+\end{equation}
+
+Therefore by the Congruence and Angle measure Theorem, $\angle BAE\cong DCE$.
+
+
+# 2. (Boyce 3.5) Prove or disprove the following statements. 
+
+## a) 
+
+If the ray $\overrightarrow{OP}$ bisects the angle $\angle AOB$, and $\angle AOP$ and $\angle BOP$ are acute, then $\angle AOB$ is obtuse. 
+
+This statement is false. 
+
+$\underline{\text{Proof:}}$
+
+We defined an acute angle as being $<90^\circ$ and an obtuse angle as being $>90^\circ$. 
+
+Consider the $m\angle AOB = 10^\circ$, then $m\angle AOP +m\angle BOP=10^\circ$. That would mean that $\angle AOP$ and $\angle BOP$ are acute, but so is $\angle AOB$. Therefore, by example, there exists a case in which $\angle AOB$ would not be obtuse. 
+
+## b) 
+
+If the ray $\overrightarrow{OP}$ bisects the angle $\angle AOB$, and the angel of $\angle AOB$ is obtuse, then $\angle AOP$ and $\angle BOP$ are acute. 
+
+This statement is true. 
+
+$\underline{\text{Proof:}}$
+
+Another way we defined an obtuse angle was being less than straight angle. 
+
+\begin{equation}\label{2b}
+\begin{split}
+180^\circ >& m\angle AOB\\
+\frac{1}{2} 180^\circ >& \frac{1}{2}m\angle AOB\\
+90^\circ >& m\angle AOP = m\angle BOP
+\end{split}
+\end{equation}
+
+Therefore $\angle AOP$ and $\angle BOP$ are acute by definition of acute being less than $90^\circ$, and by definition of bisects being something, $\overrightarrow{OP}$, that divides something else, $\angle AOB$, into two equal parts. 
+
+# 3. (Boyce 3.13) Prove Isosceles Traingle Theorem 
+
+Let $\triangle ABC$ be a triangle. Then the following statements are equivalent: 
+
+(a) $AB=AC$
+
+(b) $\angle ABC\cong \angle ACB$
+
+
+
+$\underline{\text{Proof:}}$
+
+
+# 4. (Boyce 3.17) Prove the Rectangle Diagnals Theorem 
+
+Let $ABCD$ be a parallelogram. Then $ABCD$ is a rectangle if and only if the diagonals of $\overline{AC}$ and $\overline{BD}$ are congruent. 
+
+
 
 
 
