@@ -1,0 +1,17 @@
+---
+title: "Math 338 - Homework"
+author: "Randi Bolt"
+date: "1/28/2022"
+output: pdf_document
+---
+
+_Answer the following questions. You are encouraged to work with other students and to seek help from the instructor while working on these problems, but please write up your answers on your own._
+
+1. (Boyce 4.1) Let $\triangle ABC$ be a triangle, and let X be a point on $\overline{AB}$ such that $\overline{CX}$ is perendicular to $\overline{AB}$. Prove that the area of $\triangle ABC$ is $\frac{1}{2}(AB\times CX)$. 
+
+2. (Boyce 4.4) Prove that the area of a rhombus is one half the product of the lengths of the diagonals. 
+
+3. (Boyce 4.7) Suppose $\overline{AB}$ and $\overline{CD}$ are parallel. Prove the area of $\triangle ABC$ is equal to the area of $\triangle ABD$. 
+
+4. (Boyce 4.8) Let $ABCD$ be a paralellogram. Prove that the diagnal of $\overline{BD}$ divides the parallelogram into two triangles of equal area. 
+

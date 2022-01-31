@@ -27,13 +27,23 @@ _Answer the following questions. You are encouraged to work with other students 
 
 0 is the only measure of "segment" of $\overline{AB}$ that would be consistent with each axiom. 
 
-(i) $A=B$ reads to me as two points in the same spot. If there were a distance between these two points then the unit segment would not be 1.  
+Conj: If $A=B$ then $AB=0$. 
 
-(ii) $AB=BA\Rightarrow0=0$
+$\underline{\text{Proof}}$:
+ 
+Suppose by way of contradiction (BWOC) that $AB\ne 0$. 
 
-(iii) Define C as a point between A and B. Then $AC=AB+BC\Rightarrow0=0+0$, because all three of these points are in the same spot with no measure for length between any of them. 
+Then $AB>0$. 
 
-(iv) For there to exist a unique midpoint M between two points that are the same it would break logic for M, A, or B to be anything but 0 because there is no middle point between two points with no length. 
+Suppose we choose C so B is between A and C. 
+
+Then $AB+BC=AC$ (length axiom 3)
+
+$\Rightarrow AB+BC=BC$ (A=B)
+
+$\Rightarrow AB=0$ (subtract $BC$ from both sides)
+
+This contradicts our assumption that $AB>0$. So $AB=0$. $\quad\quad \square$
 
 # 2. (Boyce 2.2) Look at these axioms for angle measure: 
 
@@ -51,13 +61,27 @@ _Answer the following questions. You are encouraged to work with other students 
 
 0 is the only measure of $\angle ABC$ that would be consistent with all of the axioms of angle measure. 
 
-(i) Since $A=C$, then $\angle ABC$ would more accurately be represented as the line $\overline{AB}$ or $\overline{CB}$ with zero angle. If there were a measurement for angle here then, the measure of a right angle would not be $90^\circ$.
+Conj: If $A=C$ then $m\angle ABC=0$. 
 
-(ii) $m\angle ABC=m\angle CBA\Rightarrow0=0$. 
+$\underline{\text{Proof}}$:
 
-(iii) If point D is in the interior of $\angle ABC$, then $m\angle ABD+m\angle DBC=m\angle ABC\Rightarrow 0+0=0$. 
+Suppose BWOC that $m\angle ABC\ne0$.
 
-(iv) Since A and C are the same, the angle $\angle ABC$ is more of a line segment $\overline{AB}=\overline{CB}$. It would again break logic for an angle or its angle bisector to be any value other than no value, 0, becasue the only value inbetween nothing is nothing. 
+Then $m\angle ABC>0$. 
+
+Suppose we choose a unique ray $\overline{BD}$ that creats a right angle with $\overline{AB}$ such that  $m\angle ABD=90^\circ$.
+
+Then $90^\circ=m\angle ABD=m\angle ABC+m\angle CBD$. 
+
+\begin{equation}\label{2a}
+\begin{split}
+\Rightarrow m\angle ABC &= m\angle ABD+m\angle CBD\\
+&= m\angle ABD +m\angle ABD\\
+&=0
+\end{split}
+\end{equation}
+
+This contradicts our assumption that $m\angle ABC>0$. So $m\angle ABC = 0$. $\quad\quad\square$
 
 # 3. (Boyce 2.3) Prove that two segments are congruent if and only if they have the same length. 
 
