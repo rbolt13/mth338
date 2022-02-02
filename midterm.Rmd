@@ -347,7 +347,7 @@ Another name for proving contrapositive is proving by way of contradiction.
 
 Next week this will be a geometry class. 
 
-# W2D3: Jan. 11th, 2022
+# <span style="color: darksalmon;">W2D3: Jan. 11th, 2022</span>
 
 ## Homework 1 Questions 
 
@@ -489,7 +489,7 @@ Angles: inclination of two lines
 
 "Major Angle" is larger than a straight angle.
 
-# W2D4: Jan. 13th, 2022
+# <span style="color: darksalmon;">W2D4: Jan. 13th, 2022</span>
 
 ## Quiz 1 
 
@@ -977,7 +977,7 @@ There are
 
 There is not a $SSA$. 
 
-# W4D7: Jan. 25th, 2022
+# <span style="color: darksalmon;">W4D7: Jan. 25th, 2022</span>
 
 Quiz's will be graded by Wednesday and Thurseday. 
 
@@ -1191,7 +1191,7 @@ $\Rightarrow = 2m\angle 3=2m\angle 1 - m\angle 3= m\angle 1$
 
 Now we can say that $\triangle ABC \cong \triangle CDA$, hence their sides have the same lengths. Therefore $AB=CD$ and $BC=DA$.
 
-# W4D8: Jan. 27th, 2022
+# <span style="color: darksalmon;">W4D8: Jan. 27th, 2022</span>
 
 Midterm will be during class on Thurseday, and can be taken remotely. 
 
@@ -1400,6 +1400,210 @@ How do we get the area of a circle?
 - Begin to reach a problem in  calculus called a limit. 
 
 # W5D9: Feb. 1st, 2022
+
+Homework 3 is graded, and homework 2 solutions are available in Canvas. 
+
+Write answers on a seperate sheet of paper, and supmit to canvas. 
+
+## Axioms of Area 
+
+1. Every polygon region has $\underline{\text{area}}$. 
+
+2. If 2 triangels are congruent then their areas are equal. 
+
+    - (this is important)
+
+3. $R=R_1\cup R_2$ and $R_1\cap R_2$ is a finite set of segments/ points, area ($R_1$) + area ($R_2$) = area R. 
+
+4. Area of rectangle is base $\times$ height. 
+
+## Area of a paralelogram 
+
+Last time we showed the area of a parallelogram. We had a couple strategies. 
+
+![](img/img66.png)
+
+- cut area into two triangels and a rectangle. 
+
+- used area axiom 4
+
+- then showed two triangles are congruent 
+
+- used area axiom 2 
+
+- extended line and showed two triangles and used axiom 2 and 3 
+
+## Homework 4
+
+Area of triangle formula. 
+
+On homework we can use:
+
+- use axioms 
+
+- use parallelogram formula (showed together)
+
+- use previous problems 
+
+## Practice: Area of a trapezoid
+
+For trapezoids, we have 1 set of parallel lines (or more). 
+
+![](img/img68.png)
+
+Find the area of a trapezoid. 
+
+Aim: height $\times$ "mean of the bases" : $\frac{AB+CD}{2}$
+
+$AB\cdot H+\frac{1}{2}CX\cdot H+\frac{1}{2}DY\cdot H=H(AB+\frac{1}{2}CX+\frac{1}{2}DY)$
+
+End goal : $H(\frac{1}{2}(AB+CD))$
+
+![](img/img69.png)
+
+You can notice that $DC-AB=CX+DY$, and use a substitution to get where you want to go.
+
+Another way to look at this: 
+
+$=H(\frac{1}{2}AB+\frac{1}{2}AB+\frac{1}{2}CX+\frac{1}{2}DY)$
+
+$=H(\frac{1}{2}(AB+AB+CX+DY))$, notice $AB+CX+DY=CD$
+
+Therefore $H(\frac{1}{2}(AB+CD))$. 
+
+This is how the homework is, and now we can use area of trapezoid. 
+
+## Similarity 
+
+Isometries: reflect, rotate, translate 
+
+- don't change lengths or angles 
+
+$\rightarrow$ Congruence 
+
+Idea for similarity: proportional 
+
+$\rightarrow$ Dilation - pick a center point and either shrink or expand 
+
+Imagine we pick a point p, then we move on a straight line towards p or expand away from P. 
+
+Pick a "scaling factor" $K>0$. 
+
+- If K is less than 1: shrink 
+
+- If K is larger than 1: expanding 
+
+- If K = 1, Do nothing 
+
+![](img/img70.png)
+
+Pick center P, where does Q go? 
+
+- Draw a line segment $\overline{QP}$
+
+- Dilation has caling factor k, move Q to Q' so that $Q'P=kQP$
+
+- Pick $Q'$ on $\overrightarrow{PQ}$ with that distance
+
+Similarity: 2 figures are similar if one can be superimposed on the other by a dilation and a sequence of isometries. 
+
+Next: AAA Theorem (similar triangels)
+
+- do a diaation and then some congruence 
+
+## Midterm Review
+
+No geometric inequalities or quadrilaterials. 
+
+Wont be given new axioms. 
+
+Material Covered: 
+
+- Week 1
+
+  - What's an inverse and a converse
+
+- Week 2
+
+  - parallel lines
+  
+  - angles 
+  
+- Week 3
+
+  - triangles 
+  
+Want: 
+
+- triangle theorems 
+
+- line theorems (complementary interior ... )
+
+- Eucilids 5th Axiom 
+
+- Truth Values and negation (like homework)
+
+- theorems about parallel lines
+
+Types of Questions 
+
+1. True / False (full page)
+
+- where you have to explain choice. (Not a proof)
+
+2. Fill in the proof. (2)
+
+- need to fill in a theorem or algebra step 
+
+- look at picture and tell why ... 
+
+3. Proofs (2)
+
+- one short 
+
+- one medium (like homework)
+
+## Practice Questions
+
+(week 5 google doc)
+
+### Round 1: True or False
+
+If ABC and DEF are triangles, with <ABC congruent to <DEF, AB = DE, and BC = EF, then ABC and DEF are congruent.
+
+- True, SAS
+
+If ABC and DEF are triangles, with <ABC congruent to <DEF, AC = DF, and BC = EF, then ABC and DEF are congruent.
+
+- False, ASS is not a $\triangle$ congruence
+
+The negation of “If a dragon is red then it breathes fire” is “If a dragon is red then it does not breathe fire.”
+
+- False, the negation would be "A dragon can be red, and not breathe fire". 
+
+The contrapositive of “If a dragon is red then it breathes fire” is “If a dragon is not red then it does not breathe fire.”
+
+- False, this is the inverse. The Contrapositive would be "If a dragon does not breathe fire, then it is not red". 
+
+### Round 2: Fill in the Proof
+
+Claim: Alternate interior angles are congruent.
+            
+Proof: Suppose AB is parallel to CD, and both are intersected by line EF. Say E is between A and B, and F is between C and D. We will show <AEF is congruent to <DFE. First, <DFE is supplementary to <CFE so m<DFE +m<CFE = 180 degrees. Next (missing step: m<DFE + m<CFE = 180 because they are supplementary ). Then m<DFE + m<CFE = m<CFE+m<AEF, so m<DFE = m<AEF. (missing step: By Congruence and Measure Angle Theorem ) <AEF and <DFE are congruent.
+
+Claim: If A=B then AB = 0.
+
+Proof: Suppose A=B. Choose another point C. By Axiom 3 of Measure for Line Segments, AC = AB + BC. (missing step: BC = AB + BC) So AB = 0. 
+
+### Round 3: Definitions and Theorems
+
+Vertical angles are congruent. 
+
+Alternate Exterior Angles are congruent. 
+
+The AAS Theorem states that if two angles and any side of one triangle are congruent to two angles and any side of another triangle, then the triangles are congruent. 
+
+An isometry preserves angles and distances. 
 
 # W5D10: Feb. 3rd, 2022
 
