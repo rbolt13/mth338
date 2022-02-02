@@ -1117,13 +1117,13 @@ $1\Rightarrow 2$ : If ABCD is a parallelogram then
   
 We also know, 
 
-$m\angle ABC+m\angle BCD=180^\circ $ (1)
+$m\angle ABC+m\angle BCD=180^\circ$ (1)
 
-$m\angle DAB+m\angle ABC=180^\circ $ (2)
+$m\angle DAB+m\angle ABC=180^\circ$ (2)
 
-$m\angle BCD+m\angle CDA=180^\circ $ (3)
+$m\angle BCD+m\angle CDA=180^\circ$ (3)
 
-$m\angle DAB+m\angle CDA=180^\circ $ (4) (written on pictures)
+$m\angle DAB+m\angle CDA=180^\circ$ (4) (written on pictures)
 
 All of these hold because they are supplementary interior angles. 
 
