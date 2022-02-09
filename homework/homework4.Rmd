@@ -90,9 +90,9 @@ Therefore,
 
 \begin{equation}\label{3.1}
 \begin{split}
-Area (\triangle ABC) &= Area (\triangle ABD)\\
-\Rightarrow \frac{1}{2}AB\cdot H_1 &= \frac{1}{2}AB\cdot {H_2}\\
-\Rightarrow \frac{1}{2}AB\cdot H_1 &= \frac{1}{2}AB\cdot H_1
+\frac{1}{2}AB\cdot H_1 &= \frac{1}{2}AB\cdot {H_1}\\
+\Rightarrow \frac{1}{2}AB\cdot H_1 &= \frac{1}{2}AB\cdot H_2\\
+\Rightarrow Area (\triangle ABC) &= Area (\triangle ABD)
 \end{split}
 \end{equation}
 
@@ -116,9 +116,9 @@ Therefore,
 
 \begin{equation}\label{4.1}
 \begin{split}
-Area (\triangle DAB) &= Area (\triangle BCD)\\
+\frac{1}{2} DB\cdot AE &= \frac{1}{2} DB\cdot AE\\
 \Rightarrow \frac{1}{2} DB\cdot AE &= \frac{1}{2} DB\cdot CE\\
-\Rightarrow \frac{1}{2} DB\cdot AE &= \frac{1}{2} DB\cdot AE
+\Rightarrow Area (\triangle DAB) &= Area (\triangle BCD)
 \end{split}
 \end{equation}
 

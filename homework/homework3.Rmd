@@ -17,12 +17,6 @@ knitr::include_graphics("img2.png")
 
 $\underline{\text{Proof:}}$
 
-i) $\angle BAE\cong DCE\Rightarrow m\angle BAE = m\angle DCE$
-
-Suppose $\angle BAE\cong DCE$. $\exists$ an isometry $f$ that superimposes $\angle BAE$ onto $\angle DCE$. Isometries preserve angle measure, therefore $m\angle BAE = m\angle DCE$
-
-ii) $m\angle BAE = m\angle DCE\Rightarrow \angle BAE\cong DCE$
-
 Let F be a point on $\overleftrightarrow{AB}$ and G be a point on $\overleftrightarrow{CD}$ such that F and G lie on the opposite side of $\overleftrightarrow{AC}$ as B and D (see **Figure 1** for reference).  
 
 \begin{equation}\label{1ii}
@@ -73,6 +67,14 @@ Therefore $\angle AOP$ and $\angle BOP$ are acute by definition of acute being l
 
 # 3. (Boyce 3.13) Prove Isosceles Traingle Theorem 
 
+<p>
+
+```{r, echo = F, out.width = "30%", fig.align='center', fig.cap='Triangle ABC with angle bisector AD.'}
+knitr::include_graphics("img7.png")
+```
+
+</p>
+
 Let $\triangle ABC$ be a triangle. Then the following statements are equivalent: 
 
 (a) $AB=AC$
@@ -83,21 +85,25 @@ $\underline{\text{Proof:}}$
 
 1. $AB=AC\Rightarrow\angle ABC\cong \angle ACB$
 
-```{r, echo = F, out.width = "30%", fig.align='center', fig.cap='Triangle ABC with angle bisector AD.'}
-knitr::include_graphics("img7.png")
-```
-
 Let $\overline{AD}$ be an angle bisector of $\angle BAC$. 
 
 Then by the congruence theorem of Side-Angle-Side $\triangle ABD\cong \triangle ACD\Rightarrow \angle ABC\cong \angle ACB$. 
 
 2. $\angle ABC\cong \angle ACB\Rightarrow AB=AC$
 
-Suppose $\angle ABC\cong \angle ACB$. Then there is an isometry that superimposes $\angle ABC$ on $\angle ACB$. So let $f$ be that isometry $f(\angle ABC)=\angle ACB$. Isometries preserve distance. Therefore, by substitution $AB=AC$. 
+Suppose $\angle ABC\cong \angle ACB$. Then there is an isometry that reflects B from one side of D to the other and superimposes $\angle ABC$ onto $\angle ACB$. So let $f$ be that isometry $f(\angle ABC)=\angle ACB$. Isometries preserve distance. Therefore, by substitution $AB=AC$. 
 
 Therefore $\angle ABC\cong \angle ACB\Leftrightarrow AB=AC\quad\quad\square$.
 
 # 4. (Boyce 3.17) Prove the Rectangle Diagnals Theorem 
+
+<p>
+
+```{r, echo = F, out.width = "35%", fig.align='center', fig.cap='A parallelogram ABCD'}
+knitr::include_graphics("img6.png")
+```
+
+</P>
 
 Let $ABCD$ be a parallelogram. Then $ABCD$ is a rectangle if and only if the diagonals of $\overline{AC}$ and $\overline{BD}$ are congruent. 
 
@@ -107,9 +113,7 @@ Since ABCD is a rectangle, then by definition of a rectangle all four angles are
 
 Since ABCD is a parallelogram, then by the Parallelogram Theorem, opposite sides are congruent. Meaning $\overline{AD}\cong \overline{BC}$ and $\overline{AB}\cong \overline{CD}$.
 
-Consider an angle bisector $\overline{AC}$, and $\overline{BD}$.
-
-Then by triangle congruence for Angle-Side-Angle we also know $\triangle ADC\cong \triangle DAB$, which implies that $\overline{AC}\cong\overline{BD}$. 
+Then by triangle congruence for Side-Angle-Side we also know $\triangle ADC\cong \triangle DAB$, which implies that $\overline{AC}\cong\overline{BD}$. 
 
 ii) If $\overline{AC}\cong\overline{BD}$ then ABCD is a rectangle
 
@@ -117,21 +121,14 @@ Since ABCD is a parallelogram, by the Parallelogram Theorem, opposite angles are
 
 By the same theorem opposite sides are congruent so, $\overline{AD}\cong \overline{BC}$ and $\overline{AB}\cong \overline{CD}$.  
 
+Our given assumption is $\overline{AC}\cong\overline{BD}$, so by triangle congruence theorem side-side-side $\triangle ADC \cong \triangle DAB\Rightarrow m\angle ADC = m\angle DAB$. 
+
 Since $\angle ADC$ and $\angle BAD$ are supplementary angles, $m\angle ADC+m\angle DAB=180^\circ$. 
-
-Consider an angle bisector $\overline{AC}$, and $\overline{BD}$. 
-
-Since $\overline{AD}\cong \overline{BC}$, $\overline{AB}\cong \overline{CD}$, and $\overline{AC}\cong\overline{BD}$, by the triangle congruence theorem side-side-side, we can say that $\triangle ADC\cong \triangle DAB$. 
-
-Since $\triangle ADC\cong \triangle DAB$, then $m\angle ADC=m\angle DAB\Rightarrow 90^\circ$.
 
 Therefore since $m\angle ADC=m\angle DAB=m\angle CBA=m\angle BCD=90^\circ$ then ABCD is a rectangle. 
 
 Therefore parallelogram $ABCD$ is a rectangle if and only if the diagonals of $\overline{AC}$ and $\overline{BD}$ are congruent. $\quad\quad\square$
 
-```{r, echo = F, out.width = "45%", fig.align='center', fig.cap='A parallelogram ABCD'}
-knitr::include_graphics("img6.png")
-```
 
 
 
