@@ -119,7 +119,7 @@ We know that A'' is from the translation, and we know that that is an isometry w
 
 Break... 
 
-# Circles 
+## Circles 
 
 (Section 6 of Boyce notes)
 
@@ -189,7 +189,143 @@ Note: you need to talk about length too, not just talk about angles.
 
 # W6D12: Feb. 10th, 2022
 
+### Homework 4 
 
+Will allow corrections on HW 4 up until next Wednesday. 
+
+Interesting strategy for 1 was to have case 1: right triangle (only 1 rectangle), case 2: general triangle (has two right triangles within it). 
+
+This is a useful proof strategy. 
+
+If you are using that the bisectors or a rhombus are perpendicular you need to state where we proved that in class or in another homework. 
+
+### Circle Theorem
+
+![](img/img77.png)
+
+Conjecture: $m\angle AOB= 2 m\angle APB$
+
+### (6.1) Inscribed Angle Theorem
+
+![](img/img78.png)
+
+Suppose A , B on a circle with center O and P is a point on a circle not in interior of $\angle AOB$ then $m\angle AOB=2m\angle APB$ (central = 2 inscribed)
+
+**Case 1:** Right Central Angle 
+
+![](img/img79.png)
+
+The radius of the circle forms triangles with the same side lengths, because the sides are the radius (which remains the same). So, $\overline{AO}=\overline{BO}=\overline{PO}$ and $m\angle APO = m\angle PAO$
+
+We also know that the sum of the interior angles of a triangle adds up to $180\circ$, therefore $90^\circ = m\angle AOB= 2m\angle APB$. 
+
+**Case 2:**
+
+![](img/img80.png)
+
+central = $m\angle 1 + m\angle 2$
+
+inscribed = $m\angle 3 + m\angle 4$
+
+From Case 1, we know that $m\angle 1 = 2m\angle 3$ and $m\angle 2 = 2m\angle 4$. 
+
+Therefore $m\angle 1+m\angle 2 = 2m\angle 3+ 2m\angle 4=2(m\angle 3+\angle 4)$. 
+
+Meaning our Central angle is 2 times the inscribed angle. 
+
+**Case 3:** 
+
+![](img/img81.png)
+
+$\angle$ 1: inscribed angle 
+
+$\angle$ 2: central angle 
+
+Notice that $m\angle 3 = 2m\angle 4$. 
+
+Also that $m\angle 2 + m\angle 3$ is a central angle, and $m\angle 1 +m\angle 4$ is inscribed. Meaning then that $m\angle 2 + m\angle 3 = 2(m\angle 1 + m\angle 4)$. 
+
+We can then show,
+
+$m\angle 2 + m\angle 3 = 2(m\angle 1 + m\angle 4)$
+
+$m\angle 2 + 2m\angle 4 = 2m\angle 1 + 2m\angle 4$
+
+$m\angle 2 = 2 m\angle 1$
+
+Summary 
+
+![](img/img82.png)
+
+### Corollary
+
+Any two inscribed angles have the same arc on the circle are congruent. 
+
+![](img/img83.png)
+
+### Power of the Point Theorem 1
+
+(6.6) Power of a Point 1. 
+
+![](img/img84.png)
+
+If $\overline{AB}$ and $\overline{CD}$ are chords of circle intersecting in x inside circle. Then $AX\cdot XB = CX\cdot XD$. 
+
+Proof: 
+
+![](img/img86.png)
+
+By Inscribed Angle Corollary we see that $\angle 1 \cong \angle 2$ because they share the same arc on the circle. 
+
+By Vertical Angle Theorem we can say that $\angle 3 \cong \angle 4$. 
+
+By Inscribed Angle Theorem $\angle 5 \cong \angle 6$. We can also say that both triangles need to add up to $180\circ$, and therefore they are congruent. 
+
+Therefore by AA Similarity Theorem $\traingle AXD \sim\triangle CXB$.
+
+Since these two triangles are similar we know these two triangles are proportional (Don't know scaling factor k). 
+
+$AX=KCX$
+
+$XD=KXB$
+
+$\frac{AX}{XD}=\frac{kCX}{kXB}=\frac{CX}{XB}$
+
+$\frac{AX}{XD}=\frac{CX}{XB}$
+
+(Get rid of fractions)
+
+$AX\cdot XB=CX\cdot XD$
+
+$\square$
+
+### Power of a point II Theorem
+
+P is outside of a circle, and draw 2 rays from P: 
+
+1 intersecting A and then B
+
+2 intersects C and D. 
+
+Then, $PA\cdot PB= PC\cdot PD$. 
+
+(Note: If P were X insides the circle then this is I)
+
+Hint: Order matters, and drawing triangles will help (see image below). 
+
+![](img/img87.png)
+
+By AA similarity $\triangle PCB \sim \triangle PAD$. 
+
+$\frac{PC}{PB}=\frac{PA}{PD}$ (cross multiply : butterfly diagnolization)
+
+$PA=kPC$ and $PD=kPB$
+
+$PA\cdot PB=PC\cdot PD$. 
+
+$\square$.
+
+This is the end of Euclidean Geometry. 
 
 # <span style="color: darksalmon;">W7D13: Feb. 15th, 2022</span>
 
@@ -199,3 +335,16 @@ Note: you need to talk about length too, not just talk about angles.
 
 
 
+
+
+# W8D15
+
+# W8D16
+
+# <span style="color: darksalmon;">W9D17: , 2022</span>
+
+# <span style="color: darksalmon;">W9D18: , 2022</span>
+
+# W10D19
+
+# W10D20 

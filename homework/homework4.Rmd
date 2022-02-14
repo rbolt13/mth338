@@ -2,8 +2,18 @@
 title: "Math 338 - Homework"
 author: "Randi Bolt"
 date: "1/28/2022"
-output: pdf_document
+header-includes:
+   - \usepackage{soul}
+   - \usepackage{color}
+output: 
+  pdf_document:
+    latex_engine: xelatex
+    extra_dependencies: xcolor
 ---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
 _Answer the following questions. You are encouraged to work with other students and to seek help from the instructor while working on these problems, but please write up your answers on your own._
 
@@ -71,6 +81,10 @@ Area(ABCD) &= Area(\triangle ABC) + Area(\triangle CDA)\\
 
 Therefore the area a rhombus is one half the product of the lengths of the diagonals. $\quad\quad\square$
 
+**\hl{Added Note (2):}** 
+
+We know that AC and BD are perpendicular to each other first by parallelogram theorem #4 which states that diagonals bisect each other, meaning  $\overline{AE}=\overline{EC}$  and $\overline{DE}=\overline{BE}$. Then because all sides of a rhombus have equal lengths and also by triangle congruence theorem SSS $\triangle ABE\cong \triangle CBE$. However since $\angle AEB = \angle CEB$ and $\angle AEB + \angle CEB=180^\circ$ then AC and BD must be perpendicular so the internal angles $\angle AEB = \angle CEB=90^\circ$.
+
 ### 3. (Boyce 4.7) Suppose $\overline{AB}$ and $\overline{CD}$ are parallel. Prove the area of $\triangle ABC$ is equal to the area of $\triangle ABD$.
 
 <p>
@@ -123,6 +137,17 @@ Therefore,
 \end{equation}
 
 Therefore the diagnal of $\overline{BD}$ divides the parallelogram into two triangles of equal area. $\quad\quad\square$
+
+
+**\hl{Homework Rewrite (4):}** 
+
+Since it is given that ABCD is a parallelogram, we know by parallelogram theorem (2) that $\angle DAB \cong \angle BCD$ and by parallelogram theorem (3) that $AB=CD$ and $BC=DA$.
+
+Consider a diagnal, $\overline{BD}$ which divides the parallelogram into two triangles, by SAS congruence theorem, we know that $\triangle DAB\cong BCD$. 
+
+Since we know that by problem 1 that a triangles area is a formula of it's length measurements and we also know that congruence preserves lengths then the diagonal of $\overline{BD}$ divides the parallelogram into two triangles of equal area. $\quad\quad\square$
+
+
 
 
 
