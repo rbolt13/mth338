@@ -329,7 +329,153 @@ This is the end of Euclidean Geometry.
 
 # <span style="color: darksalmon;">W7D13: Feb. 15th, 2022</span>
 
+### HW 5 Problem 3
 
+![](img/img88.png)
+
+Can't assume pink line C'B' is parallel to CB. 
+
+1 option: SAS $\Rightarrow$ $\triangle ABC\sim A'B'C'\Rightarrow B'C'=kBC$.
+
+### HW 6
+
+For 1 and 2, inscribed angle theorem (or it's corallary).
+
+For 3, even though we didn't prove it, using Boyce 6.5 (Lemma) will make this problem very easy. You also get to pick two more points on the circle. 
+
+Note: A lemma is a piece of a theorem you prove first. 
+
+## Analytic Geometry 
+
+Axiomatic Geometry: Start with axioms $\rightarrow$ theorems. 
+
+Analytic Geometry: Coordinates and functions. 
+
+Preview: Euclids parallel lines $\rightarrow$ don't intersect. 
+
+Q: What if space isn't flat? i.e. Earth 
+
+- longitude (parallel that intersect)
+
+- On a sphere angles in a triangle don't add to $180^\circ$. 
+
+## Isometries as Functions 
+
+Isometries: rotations, reflections, and translations that preserve distance, length, and angle measure. "rigid motion" 
+
+Isometries as functions,  
+
+In the plane: $F:\mathbb{R^2}\rightarrow \mathbb{R}^2$
+
+$F((x,y))=(z,w)$
+
+Domain: $\mathbb{R}^2$ 
+
+Range: $\mathbb{R}^2$ (can plug in anything and doesn't leave anything out)
+
+Ex: (Not Isometry) $F(x,y)=(\frac{1}{x},\frac{1}{y})$
+
+Domain: anything with a zero is not in the domain or range. 
+
+Ex: (Not Isometry) $F(x,y)=(2x,2y)$
+
+Domain = Range = $\mathbb{R}^2$
+
+However this does not preserve distance. 
+
+### One-to-one
+
+one-to-one: no two things in the domain get sent to the range. 
+
+If $F(x,y)=F(z,w)$ then $(x,y)=(z,w)$
+
+Conjecture: Isometries are one-to-one. 
+
+Proof by contradiction. 
+
+Imagine $(x,y)\ne (z,w)$ by $F(x,y)=F(z,w)$. 
+
+If $F(x,y)=F(z,w)$ the distance from $F(x,y)$ to $F(z,w)$ is 0. But the distance from $(x,y)$ to $(z,w)$ wasn't 0. 
+
+### Onto
+
+Hit's everything in the codomain. 
+
+$F:\mathbb{R}^2\rightarrow \mathbb{R}^2$ 
+
+Everything in the codomain (Range) has to get sent back to the domain. 
+
+Range = $\mathbb{R}^2$. 
+
+Isometries are also onto! 
+
+Bijection: one-to-one and onto 
+
+### Isometries
+
+Isometries = $\{F:\mathbb{R}^2\rightarrow\mathbb{R}^2|\text{bijections that preserve distance and angle measure}\}$. 
+
+$S=\{F:\mathbb{R}^2\rightarrow \mathbb{R}^2|\text{bijections that preserve distance and angle measure}\}$
+
+Set of Isometries
+
+- translations
+
+- rotations
+
+- reflections 
+
+- and "compositions" (doing one and then another)
+
+### Activity 1: Classify Isometries
+
+Classify each of the folloing as a translation ,rotation, reflection, or none of the above. 
+
+1. $F(x,y)=(x,-y)$: Reflection across x
+
+2. $G(x,y)=(y,x)$: Reflection across f(x)=-x
+
+3. $H(x,y)=(x-1,y+2)$: Translation 
+
+4. $J(x,y)=(2x,y)$: Not an isometry
+
+## Fixed Point Theorem Part 1
+
+If F, an isometry, fixes points A and B, then F fixes all points on $\overleftrightarrow{AB}$. 
+
+(once you fix two points, you fix every point on that line)
+
+Explanation: $A=(x,y)$
+
+F fixes A $\Rightarrow F(x,y)=(x,y)$
+
+Proof: Suppose A, B are fixed by isometry F. F fixes all points on $\overleftrightarrow{AB}$. Let C be on $\overleftrightarrow{AB}$. 
+
+Wherever $F(C)$ is, 
+
+- $m\angle ACB=180^\circ\text{ or }0^\circ$
+
+- $m\angle F(A)F(C)F(B)=180^\circ\text{ or }0^\circ$
+
+$\rightarrow F(C)$ is on $\overleftrightarrow{AB}$.
+
+Also $F(C)A=CA$ and $F(C)B=CB$
+
+There are exactly 2 points on $\overleftrightarrow{AB}$ with distance CA from A: 
+
+- one has distance > BA
+
+- one has distance < BA 
+
+So they're different so only 1 is dist CB from B. So $F(C)=C$.
+
+F fixes all points on $\overleftrightarrow{AB}$. 
+
+Picture: 
+
+![](img/img89.png)
+
+This whole thing fails if A=B, then there is no line $\overleftrightarrow{AB}$.
 
 # <span style="color: darksalmon;">W7D14: Feb. 17th, 2022</span>
 
@@ -337,14 +483,23 @@ This is the end of Euclidean Geometry.
 
 
 
-# W8D15
+# W8D15: Feb. 22nd, 2022
 
-# W8D16
+# W8D16: Feb. 24th, 2022
 
-# <span style="color: darksalmon;">W9D17: , 2022</span>
+# <span style="color: darksalmon;">W9D17: Marh 1st, 2022</span>
 
-# <span style="color: darksalmon;">W9D18: , 2022</span>
+# <span style="color: darksalmon;">W9D18: March 3rd, 2022</span>
 
-# W10D19
+# W10D19: March 8th, 2022
 
-# W10D20 
+# W10D20: March 10th, 2022
+
+# <span style="color: darksalmon;">W11D21: March 15th, 2022</span>
+
+Final!! 
+
+
+
+
+
