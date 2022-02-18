@@ -479,9 +479,203 @@ This whole thing fails if A=B, then there is no line $\overleftrightarrow{AB}$.
 
 # <span style="color: darksalmon;">W7D14: Feb. 17th, 2022</span>
 
+### Another hint on HW6 Problem 3
+
+![](img/img90.png)
+
+### Quiz 2
+
+Available starting tomorrow, and due next Friday. 
+
+Focus is on the presentation. Ask Becca if you have questions. 
+
+### Theorem (Boyce 7.7)
+
+Isometries map lines to lines. 
+
+- rotation 
+
+- refection 
+
+- translation 
+
+Proof: Suppose $\overleftrightarrow{AB}$. Let C be a point on $\overleftrightarrow{AB}$. Let F be an isometry. 
+
+- $m\angle ACB=180^\circ$ or $0^\circ$
+
+- $m\angle F(A)F(C)F(B)=180^\circ$ or $0^\circ$
+
+because a use F preserves angle measure. 
+
+Then F(C) is on $\overleftrightarrow{F(A)F(B)}$.
+
+"All isometries send lines to lines"
+
+### Symmetries
+
+Last time: The set of isometries with composition is a group. 
+
+(0) Closure (order doesn't matter)
+
+(1) Associativity (parentheses don't matter)
+
+(2) Identity $e=F(x,y)=(x,y)$
+
+(3) Inverses (undoes isometry)
+
+Now: A $\underline{\text{symmetry}}$ is an isometry that sends a geometric figure to itself. 
+
+Ex: If you rotate a circle from its origin $90^\circ$, where does it end up? The points on the circle move, but the circle itself does not move. This is an example of a symmetry. 
+
+Symmetries can be:
+
+- Translations:  $\tau_{AB}$ moves A to B
+
+- Rotations: $R_{c,\alpha}$, c center, $\alpha$ angle
+
+- Reflections: $r_m$, m is line being reflected over
+
+- compositions of these 
+
+### Questions
+
+What symmetries would a line have?
+
+- one reflection over a line that's perpendicular to it
+
+- translations along the vector of the line (any direction that's parallel)
+
+![](img/img91.png)
+
+Every point can be shifted to the right infinity. 
+
+Paradox: A hotel with infinite rooms is booked and someone comes to check in. Where do they put them? You move everyone a room to the right and put them in the first room. 
+
+What symmetries would a circle have? 
+
+A circle has infinite axes of symmetry. 
+
+### Equilateral Triangle
+
+All sides are equal length. 
+
+![](img/img92.png)
+
+**Goal 1:** List symmetries 
+
+Rotations: 
+
+![](img/img93.png)
+
+- $R_{c,120^\circ}$: $120^\circ$ about the center of the triangle
+
+- $R_{c,240^\circ}$: $240^\circ$
+
+- $R_{c,3}$: $e=360^\circ$
+
+Translations
+
+- e
+
+Reflections 
+
+![](img/img94.png)
 
 
+3 angle bisectors (isosceles theorem)
 
+- $r_{m_1}$, $r_{m_2}$, $r_{m_3}$
+
+Symmetries: e, $R_{c,120}$, $R_{c,240}$, $r_{m_1}$, $r_{m_2}$, $r_{m_3}$
+
+Question 1: Are any of these the same? 
+
+![](img/img95.png)
+
+Question 2: Did we miss any? 
+
+No, $3!=3\cdot2\cdot 1=6$
+
+$\quad 1\rightarrow 3$ choices
+
+$\quad 2\rightarrow 2$ choices
+
+Note: There are **not** $4!=24$ symmetries of a square. 
+
+![](img/img96.png)
+
+$\quad 1\rightarrow 4$ choices
+
+$\quad 2\rightarrow 2$ choices
+
+$\quad 3\rightarrow 1$ choices
+
+$\quad 4\rightarrow 1$ choices
+
+$4\cdot 2\cdot 1\cdot 1= 8$ choices
+
+Hint for HW: n-sides regular polygon: 2n symmetries
+
+**Goal 2:** This set is also a group. 
+
+$\mathscr{S}=\{e,R_{c,120^\circ}, R_{c,240^circ},r_{m_1}, r_{m_2},r_{m_3} \}$
+
+Claim $\mathscr{S}$ is a group under composition.
+
+Proof: 
+
+(0) Closure: If I compose 2 symmetries, I get a symmetry. 
+
+Let our triagle be $\triangle 123$ and suppose F and G are $\mathscr{S}$: $$F\circ G(\triangle 123)=F(G(\triangle 123))=F(\triangle 123)=\triangle 123$$
+
+Ex. $R_{c,120^\circ}\circ r_{m_1}=r_{m_3}$
+
+![](img/img97.png)
+
+In principle:
+
+- if you compose two rotations you get a roations
+
+- if you compose a rotation and a reflection you get a reflection 
+
+- if you compose two reflections you'll get a reflections 
+
+(1) Associative: 
+
+$F\circ(G\circ H)=(F\circ G)\circ H$
+
+\begin{equation}\label{D14,1}
+\begin{split}
+F\circ(G\circ H) &= F\circ (G\circ H)(\triangle 123)\\\
+&= F(G\circ H (\triangle 123))\\
+&= F(G(H(\triangle 123)))\\
+&= (F\circ G)\circ H(\triangle 123)
+\end{split}
+\end{equation}
+
+(2) Identity: e
+
+example: $e=r_{m_1}\circ r_{m_2}$
+
+(3) Inverses: 
+
+![](img/img98.png)
+
+Question: If $\triangle 123$ was no equillateral would it still have all these symmetries? 
+
+Answer: No, 
+
+Ex. Isosceles only has two: $e, r_{m_3}$ 
+
+### Homework 7, Problem 4
+
+If p is an n-sided regular polygon (all angles and sides are equal)
+
+- How many symmetries does it have? 
+
+- are they a group? 
+
+Hint (2n)
 
 # W8D15: Feb. 22nd, 2022
 
