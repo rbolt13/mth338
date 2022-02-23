@@ -679,6 +679,195 @@ Hint (2n)
 
 # W8D15: Feb. 22nd, 2022
 
+For Quiz looking more at problem 1 then 2. Just follow what we did in class for #2, but use a lot of time with 1. 
+
+## Euclidean distance in $\mathbb{R}^2$
+
+Also call Euclidean metric in $\mathbb{R}^2$, where for our course we can think of metric as distance. 
+
+If $A=(x_A,y_A)$, $B=(x_B,y_B)$ in $\mathbb{R}^2$. 
+
+$d_E(A,B)=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}$
+
+Q: What does this have to do with Euclidean Geometry? 
+
+![](img/img99.png)
+
+## Pythagorean Theorem 
+
+$c^2=a^2+b^2$
+
+Proof Ingrediants: 
+
+- Area Axioms 
+
+  - (4) Area of rect. was $b\times h$
+  
+      - Area of triangle $\frac{1}{2}b\times h$
+      
+      - Our right triangle $\frac{1}{2}a\times b$
+  
+  - (2 or 3) Add Areas 
+  
+Proof: 
+
+![](img/img100.png)
+
+![](img/img101.png)
+
+Big "square": $(a+b)^2=a^2+2ab+b^2$
+
+- all sides $a+b$, angles all $90^\circ$.
+
+Little "square": 
+
+- all sides are c
+
+- area: $c^2$
+
+By axiom 3: Big square = little square + 4 triangles. Therefore, 
+
+$$a^2+2ab+b^2=c^2+4(\frac{1}{2}ab)$$
+
+$$\Rightarrow a^2+b^2=c^2$$
+
+## Taxicab Geometry 
+
+Idea, distance lives on a grid. 
+
+![](img/img102.png)
+
+Q: Can you find other paths of length 5? 
+
+![](img/img103.png)
+
+Living on an integer grid, what is the Taxi Cab distance formula?
+
+$d_T=|x_B-x_A|+|y_B-y_A|$
+
+## Theorem 
+
+For all A, B in $\mathbb{R}^2$ $d_E=(A,B)\leq d_T(A,B)$.
+
+![](img/img104.png)
+
+Lemma: If x, y are in $\mathbb{R}^+$ then $x-y\geq 0$ if and only if $x^2-y^2$. 
+
+Proof: $x^2-y^2=(x-y)(x+y)$ so 
+
+\begin{equation}\label{D15.1}
+\begin{split}
+x^2-y^2\geq 0 &\Leftrightarrow (x-y)(x+y)\geq 0\\
+&\Leftrightarrow x-y\geq 0
+\end{split}
+\end{equation}
+
+Theorem: $d_E=(A,B)\leq d_T(A,B)$
+
+Proof: 
+
+$d_E(A,B)=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}$
+
+$d_T=|x_B-x_A|+|y_B-y_A|$
+
+We want to show: $d_T(A,B)-d_E(A,B)\geq 0$
+
+By lemma this is the same as proving 
+
+$d_T^2(A,B)-d_E^2(A,B)\geq 0$. 
+
+\begin{equation}\label{D15.2}
+\begin{split}
+d_T^2(A,B)-d_E^2(A,B) &= (|x_B-x_A|+|y_B-y_A|)^2-(\sqrt{(x_B-x_A)^2+(y_B-y_A)^2})^2\\
+&= |x_B-x_A|^2+2|x_B-x_A||y_B-y_A|+|y_B-y_A|^2-[(x_B-x_A)^2+(y_B-y_A)^2]\\
+&= 2|x_B-x_A||y_B-y_A|\quad\quad\text{, because}|x|^2=x^2\\
+&\geq 0\quad\quad\text{, because of the absolute values}
+\end{split}
+\end{equation}
+
+Q: When is $d_T=d_E$? 
+
+Note: $d_T^2-d_E^2=2|x_B-x_A||y_B-y_A|=0?$
+
+A: It's when $x_B=x_A$ or $y_B=y_A$.
+
+- If $x_B=x_A$ then A, B are on the same vertical line.  
+
+- If $y_B=y_A$ then A, B are on the same horizontal line. 
+
+## Circles in Taxicab Geometry
+
+In Euclidean geometry a circle is defined as a set of points who distance from ceneter O is r (radius). 
+
+If $0=(x_0,y_0)$
+
+Circle $=\{(x,y)|d_E((x,y),(x_0,y_0))=r\}$
+
+Example: 
+
+Circle $=\{(x,y)|d_E((x,y),(0,0))=2\}$
+
+How many points are on the circle? 
+
+$\infty$
+
+Taxicab Circles: (integers)
+
+Circle $=\{(x,y)|d_T((x,y),(x_0,y_0))=r\}$
+
+![](img/img105.png)
+
+Moral: Taxicab circle are squares!
+
+$d_T(|\frac{1}{2}-0|+|\frac{1}{2}-0|)=1$
+
+Q: What is taxicab $\pi$?
+
+Euclidean $\pi\approx 3.14....$ irrational (transcendental) number. 
+
+Circle: circum: $2\pi r$ and area $\pi r^2$
+
+$\pi=\frac{\text{circumference}}{\text{diameter}}$
+
+Maybe for $d_T$, $\pi\ne 3.14$
+
+### Example 
+
+Center (0,0) with r = 1
+
+![](img/img106.png)
+
+Diameter = 2
+
+Circumference = 8
+
+Taxicab = $\pi=\frac{\text{circumference}}{\text{diameter}}=4$
+
+### Example 
+
+Center (0,0) with r = 3
+
+Diameter = 6
+
+Circumference = 24
+
+![](img/img107.png)
+
+$\pi=\frac{\text{circumference}}{\text{diameter}}=4$
+
+Fact: Taxicab $\pi$ is 4. 
+
+Next weeks homework: you are going to try to figure out what a radian is. 
+
+For a unit circle a radian is defined as an angle with an arc length of 1. 
+
+Circle with radius r: radian is angle that corresponds with arc length r. 
+
+HW: What is 1 radian = ????
+
+Euclidean geom: 1 radian: $\frac{180}{\pi}$
+
+
 # W8D16: Feb. 24th, 2022
 
 # <span style="color: darksalmon;">W9D17: Marh 1st, 2022</span>
