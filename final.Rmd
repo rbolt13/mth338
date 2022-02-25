@@ -870,6 +870,145 @@ Euclidean geom: 1 radian: $\frac{180}{\pi}$
 
 # W8D16: Feb. 24th, 2022
 
+Last homework is optional for feedback. Can only bring your homework grade up, not down. 
+
+### Taxicab Geometry Review
+
+For $A=(x_a,y_a)$ and $B=(x_b,y_b)$ then, 
+
+Euclidean: $d_E=\sqrt{(x_b-x_a)^2+(y_b-y_a)^2}$
+
+Taxicab: $d_T=|x_b-x_a|+|y_b-y_a|$
+
+Also, $d_T\geq d_E$.
+
+Note:  Two distances will match up if they are on the same horizontal or verticle line. 
+
+Circle: $\{(x,y)|d_T((x,y),(x_0,y_0))=r\}$
+
+Circles in taxicab geometry are squares. 
+
+Pi: $\pi_T=4$
+
+Radians: have nice values too (will figure out on HW)
+
+
+### Triangles in Taxicab
+
+2 frameworks
+
+1. Draw normal triangles, and use $d_T$ (taxicab metric) for length. 
+
+2. Pick three points and draw taxicab grids, but you can't talk about angles. (we won't use this one)
+
+Question: When are 2 triangles (or any shape) congruent? 
+
+Answer: When there is an isometry that superimposes 1 on the other. 
+
+An isometry is a transformation that preserves distance and angle measure.
+
+- angle measure will stay the same
+
+- we have change distance in taxi-cab geometry
+
+Euclidean world: 
+
+- translation
+
+- rotations 
+
+- reflections 
+
+- combinations 
+
+### Ex. Rotate a line $90^\circ$
+
+![](img/img107.png)
+
+### Ex. 
+
+![](img/img108.png)
+
+![](img/img109.png)
+
+Taxicab: No SAS!!! 
+
+### Goals
+
+Looking at the list of translations, roations, and reflections, which of these work in taxicab geometry? Which work all or the time? some of the time? never? 
+
+1. Translations
+
+Start with 1 Translations 
+
+$A=(x_a,y_b)$ translate by $(z,w)$ 
+
+$\quad\rightarrow$ A moves to $(x_a+z,y_a+w)$
+
+![](img/img110.png)
+
+$d_T=|x_b-x_a|+|y_b-y_a|=|x_b-x_a|+|y_b-y_a|$
+
+Translations preserve taxicab distance!!! 
+
+![](img/img111.png)
+
+2. Rotations 
+
+Rotations doesn't always work. 
+
+- ex: length changed after $45^\circ$ rotation. 
+
+Let's try $90^\circ$
+
+- ex: ![](img/img112.png)
+
+Conjecture: Rotating by $90^\circ\times$ integer is a taxicab isometry. 
+
+Why is this true? 
+
+![](img/img113.png)
+
+3. Reflections
+
+![](img/img114.png)
+
+### Isometries for taxicab:
+
+- translations 
+
+- rotations by $90^\circ k$ where k integer
+
+- reflections over y=0, x=0, y=x, or y=-x
+
+- combinations 
+
+### Rest of course
+
+Euclid's axioms $\rightarrow$ 5
+
+Given a line and a point not on the line, you can draw exactly 1 line thru that point, parallel to the first line. 
+
+Non Euclidean Geometry: 
+
+Given a line, and a point not on that line 
+
+- $\underline{\text{Spherical}}$ geometry: no lines drawn thru that pt that won't intersect 1st line. ($>180\circ$)
+
+- $\underline{\text{Hyperbolic}}$ geometry: more than 1 line thru that pt that doesn't intersect the 1st line. ($<180\circ$)
+
+### Taxicab Land
+
+- A triangle where 2 sides don't add up to more than the 3rd side. 
+
+Draw and give specific coordinates for:
+
+-  2 triangles congruent in both Euc. and Taxicab geomety if possible. (If not explain why)
+
+- 2 triangles congruent in Euc. geometry and not taxicab if possible. 
+
+- 2 triangles congruent in taxicab but not Euc. if possible. 
+
 # <span style="color: darksalmon;">W9D17: Marh 1st, 2022</span>
 
 # <span style="color: darksalmon;">W9D18: March 3rd, 2022</span>
