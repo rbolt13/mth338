@@ -1011,6 +1011,136 @@ Draw and give specific coordinates for:
 
 # <span style="color: darksalmon;">W9D17: Marh 1st, 2022</span>
 
+- Euclid's 5th: Parallel Lines (Weeks 1-6)
+
+$\quad$ Given a point on the line there is exatly 1 line thru the point that is parallel to the line. 
+
+- Eliptical / spherical: no parallel lines (Today Section 10 in the Boyce Notes)
+
+- Hyperbolic: more than 1 parallel lines (Thursday Section 9 in the Boyce Notes)
+
+(Next Tuesday)
+
+Vote as a class: 
+
+- polygons in hyperbolic 
+
+- spherical geometry $\rightarrow$ project geometry 
+
+- idea you have for last class of new material 
+
+Review will be on that Thurseday 
+
+## Sperical: 
+
+A sphere is a 2D object / space "embedded in 3D"
+
+$\mathbb{R}^3$ "Euclidean" $d_E((x_A,y_A,z_A),(x_A,y_B, y_C))=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}$
+
+Sphere centered at $(0,0,0)$
+
+$$S^2=\{(x,y,z)\in\mathbb{R}^3|d_E((x,y,z),(0,0,0))=\rho\}$$
+
+$\rho =$ rho
+
+$$S^2=\{(x,y,z)\in\mathbb{R}^3|\sqrt{x^2+y^2+z^2}=\rho\}$$
+
+$$S^2=\{(x,y,z)\in\mathbb{R}^3|x^2+y^2+z^2=\rho^2\}$$
+
+This is called the eqation of the sphere is nice, becasue it tells us about the 
+
+![](img/img115.png)
+
+Q: What is a "straight line" on the sphere? 
+
+A: A "straight line" on a sphere is a "great circle": a circle around sphere with largest possible radius. 
+
+Ex: Equator is a great circl on the equator. 
+
+![](img/img116.png)
+
+Longitudes are great circles. 
+
+Latitudes are not except for the equator. 
+
+$d_S(A,B)=$dist on sphere of radis $\rho$ between A and B. 
+
+$A=(x_A,y_A,z_B)$ and $B=(x_B,y_B,z_B)$
+
+![](img/img117.png)
+
+Only need to focus on green circle. 
+
+![](img/img118.png)
+
+\begin{equation}\label{D17.1}
+\begin{split}
+A\cdot B &= x_Ax_B+y_Ay_B+z_A\cdot z_B\\
+&= |A||B|\cdot cos(\theta)\\
+&= \rho^2 cos (\theta)
+\end{split}
+\end{equation}
+
+($|A|=\rho$,$|B|=\rho$)
+
+We want $d_s(A,B)=\rho\cdot\theta$
+
+\begin{equation}\label{D17.2}
+\begin{split}
+\text{We know }A\cdot B &= \rho^2 cos (\theta)\\
+\frac{A\cdot B}{\rho^2} &= cos(\theta)\\
+\text{arc cos}(\frac{A\cdot B}{\rho ^2}) &= \theta
+\end{split}
+\end{equation}
+
+$\Rightarrow d_s(A,B)=\rho\cdot\text{arc cos}(\frac{A\cdot B}{\rho ^2})$
+
+### Triangle Angle Measure 
+
+What are the angles of a triangle? 
+
+![](img/img120.png)
+
+Define Three points, 
+
+![](img/img121.png)
+
+If you were walking along the eqator and turned right to walk to the north pole, what angle would you be making?
+
+Intuitively a right angle. 
+
+Then you could say this triangle has three right angles. 
+
+In general: $180^\circ <\text{sum of angles}<540^\circ$
+
+### Area of Triangle 
+
+![](img/img122.png)
+
+The area of this traingle is one eight that of the entire sphere surface area.
+
+Area for the surface area of a sphere is $4\pi \rho^2$, so our specific triangle has an area of $\frac{\pi}{2}$. 
+
+### Area of a traingle on a sphere 
+
+Girard's Theorem: If interior angles are $\alpha,\beta,\gamma$, $\alpha+\beta+\gamma-180^\circ=E$, where E is the $\underline{\text{excess}}$ of the triangle. 
+
+The area of triangle is $\rho^2\cdot E$ (where E is measured in radians)
+
+In ex: 
+
+$\rho=1$
+
+$E=90^\circ=\frac{\pi}{2}$
+
+We found area $\frac{\pi}{2}$.
+
+Formula $\rho^2\cdot E=1^2\cdot \frac{\pi}{2}=\frac{\pi}{2}$
+
+[Proof and Animation](https://vanderbei.princeton.edu/WebGL/GirardThmProof.html)
+
+Next class we will start looking at [Poincare Hyperbolic Disk](https://mathworld.wolfram.com/PoincareHyperbolicDisk.html)
+
 # <span style="color: darksalmon;">W9D18: March 3rd, 2022</span>
 
 # W10D19: March 8th, 2022
