@@ -1143,6 +1143,108 @@ Next class we will start looking at [Poincare Hyperbolic Disk](https://mathworld
 
 # <span style="color: darksalmon;">W9D18: March 3rd, 2022</span>
 
+Final can be taken in person or remotely. Will send a survey out on Monday. 
+
+## Hyperbolic 
+
+Given a line _l_, and a point P not on _l_ there is more than 1 line thru P parrallel to _l_. 
+
+### Transformations of the plane 
+
+Ex: Isometries in euclidena world are translations, reflections, rotaions, and / or composisions
+
+Ex: Dilations 
+
+Ex: Inversion about a circle 
+
+(not the only inversion that exists but the one we need today)
+
+![](img/img123.png)
+
+### Ex. Unit Circle (1,0)
+
+![](img/img124.png)
+
+Circle inversions switch the inside and the outside of the circle. 
+
+### Strange Fact
+
+Circle inversions preserves angles (conformal map).
+
+### Draw a circle inversion. 
+
+Imagine a circle of radius 1, with an equilateral triangle inscribed inside it. Try to draw what the circle inversion would do to this triangle. Be as specific about where points and angles end up as you can. 
+
+![](img/img125.png)
+
+### Cross-Ratio
+
+(Orientation is important)
+
+2D:
+
+![](img/img126.png)
+
+3D:
+
+![](img/img127.png)
+
+### Example 
+
+![](img/img128.png)
+
+### Fact
+
+Cross ratios are invariant (never changing) under circle inversions. 
+
+![](img/img129.png)
+
+### Model of Hyperbolic Plane
+
+Poincare disk: unit disk without the boundary circle. 
+
+There are points, and 2 types of lines: 
+
+1) any diameter.
+
+2) arcs of circles that meet the boundary at right angles. 
+
+```{r, echo = F, out.width = "35%", fig.align='left', fig.cap=''}
+knitr::include_graphics("img/img130.png")
+```
+
+```{r, echo = F, out.width = "35%", fig.align='left', fig.cap='[Life on the Poincare Disk](https://pointatinfinityblog.wordpress.com/2018/02/19/life-on-the-poincare-disk/)'}
+knitr::include_graphics("img/img131.png")
+```
+
+### Example 
+
+![](img/img132.png)
+
+![](img/img133.png)
+
+### Example 
+
+[Poincare Hyperbolic Disk](https://demonstrations.wolfram.com/PoincareHyperbolicDisk/)
+
+### Example Parallel Lines
+
+![](img/img134.png)
+
+How many lines can I draw through P that are parallel to l? 
+
+Infinite.
+
+![](img/img135.png)
+
+### Triangles 
+
+Take three points on the poincare disk. 
+
+![](img/img137.png)
+
+Fact: Area is determined by angles. 
+
 # W10D19: March 8th, 2022
 
 # W10D20: March 10th, 2022
