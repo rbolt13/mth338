@@ -1247,6 +1247,134 @@ Fact: Area is determined by angles.
 
 # W10D19: March 8th, 2022
 
+Will get another survey in a month. 
+
+Thurseday will be all review. 
+
+Practice Exam is available, and a good example of what to expect. It was written at the same time as the actual final so it is a VERY good approximation of what is on the exam. 
+
+No group proofs will be on the final. 
+
+No new material learned today will be on the final. 
+
+## Projective Geometry 
+
+### Projective Line (1D)
+
+![](img/img138.png)
+
+### Parameterize 
+
+Sometimes when you have a set like this you want to parameterize or give coordinates to. 
+
+$\{\text{lines thru }(0,0)\text{ in }\mathbb{R}^2\}$
+
+![](img/img140.png)
+
+![](img/img139.png)
+
+![](img/img143.png)
+
+In projective geometry we don't have a concept of distance. 
+
+### General Principle 
+
+If you are in an n dimensional space $\mathbb{R}^n$, $x_1,...,x_n$,
+
+- Rule 1 - $n-1$ dimensional space
+
+- Rule 2 - $n-2$ dimensional space
+
+### Projective Plane 
+
+![](img/img144.png)
+
+![](img/img145.png)
+
+$\mathbb{P}_\mathbb{R}^2$ [1:0:0] = [2:0:0]
+
+### Exercise:
+
+Note: Homogenous = all same degree
+
+1. $x+y+z=0$ deg. 1 (homogeneous)
+
+$\quad [1:-1:0]$ works 
+
+2. $x+y+z=1$ deg. 1 (not homogeneous)
+
+$\quad [2:-1:0]$ works
+
+$\quad [4:-2:0]$ does NOT work 
+
+### Fact
+
+Only homogeneous equations make sense in homogenous coordinates. 
+
+In $\mathbb{P}_\mathbb{R}^2$ 2 points define a line. Where a line is defined by equation $ax+by+cz=0$
+
+### In a group
+
+1. $[1:0:0]$ and $[0:0:1]$
+
+2. $[1:0:0]$ and $[1:1:1]$
+
+3. Can you write any of your equations differently??? Meaning $ax+by+cz=0$
+
+### Parallel lines
+
+There are no parallel lines in the projected plane. 
+
+$ax+by+cz=0$
+
+in $\mathbb{R}^3$ : plane
+
+in $\mathbb{P}^2$ : line
+
+Ex: $x+2y+z=0$ 
+
+possible solutions: $[-1:1:-1]$ , $[1:0:-1]$, $[2:-1:0]$, $[-3:3:-3]$ (which is the same point as $[-1:1:-1]$)
+
+Then for $\mathbb{P}_x\ne 0$
+
+$x+2y+z=0$
+
+$1+\frac{2y}{x}+\frac{z}{x}=0$
+
+$1+\frac{2y}{x}+\frac{z}{x}=0$
+
+$1+2a+b=0$
+
+$b=-2a-1$
+
+![](img/img146.png)
+
+![](img/img148.png)
+
+Q: Are there parallel lines? 
+
+A: No. 
+
+($x+2y+z=0$?)
+
+![](img/img149.png)
+
+However when x=0...
+
+![](img/img150.png)
+
+### Cool Fact
+
+![](img/img152.png)
+
+![](img/img151.png)
+
+Take away: In projective space lines become points and planes become lines.
+
+![](img/img152.png)
+
+[Grassmannian](https://en.wikipedia.org/wiki/Grassmannian)
+
 # W10D20: March 10th, 2022
 
 # <span style="color: darksalmon;">W11D21: March 15th, 2022</span>
