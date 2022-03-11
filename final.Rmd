@@ -1047,7 +1047,7 @@ $$S^2=\{(x,y,z)\in\mathbb{R}^3|\sqrt{x^2+y^2+z^2}=\rho\}$$
 
 $$S^2=\{(x,y,z)\in\mathbb{R}^3|x^2+y^2+z^2=\rho^2\}$$
 
-This is called the eqation of the sphere is nice, becasue it tells us about the 
+This is called the equation of the sphere is nice, becasue it tells us about the 
 
 ![](img/img115.png)
 
@@ -1376,6 +1376,127 @@ Take away: In projective space lines become points and planes become lines.
 [Grassmannian](https://en.wikipedia.org/wiki/Grassmannian)
 
 # W10D20: March 10th, 2022
+
+Final Exam next Tuesday at 5:30pm.
+
+- will be longer then the midterm, but the same length as the practice exam
+
+- no notes
+
+- study by going over the practice final, past homeworks (2nd half of course), todays review and solutions 
+
+## Review Game
+
+### A. Transformations of the Plane
+
+For each map belwo decide which of the following properties it has: 
+
+a) preserves Euclidean distance
+
+b) preserves Taxicab distance
+
+c) preserves angles 
+
+1. The reflection over the line $y=2x$
+
+2. The dilation of the plane with center $(0,0)$ and scaling factor 2. 
+
+3. The refelction over the line $y=-x$
+
+4. The rotation of the plane around center $(0,0)$ by $90^\circ$
+
+### B. Triangle Congruence 
+
+Decide whether the following statements are true or false.
+
+1. If ABCD is a parallelogram, then $\triangle ABC$ and $\triangle BCD$ are congruent. 
+
+2. If ABCD is a parallelogram, then $\triangle ABC$ and $\triangle CDA$ are congruent. 
+
+3. If ABCD is a parallelogram, then $\triangle ABC$ and $\triangle ADC$ are congruent. 
+
+4. If ABCD is a rhombus, then $\triangle ABC$ and $\triangle ADC$ are congruent. 
+
+5. If ABCD is a rectangle, then $\triangle ABC$ and $\triangle ADC$ are congruent. 
+
+### Congruence and Similarity
+
+For each of the following state if it is a: a) triangle congruence theorem, b) triangle similarity theorem, c) both, d) neither
+
+1. SSS
+
+2. SAS
+
+3. AA
+
+4. AAS
+
+4. SSA
+
+### What Am I an Axiom For? 
+
+State which set of axioms the following statement comes from. 
+
+1. There exists a unique ray that is the angle bisector of $\angle ABC$. 
+
+2. If A, B, and C are three points wuth B between A and C, then AC is equal to $AB+BC$.
+
+3. Suppose that the region R is the union of two regions $R_1$ and $R_2$. Suppose also that $R_1$ and $R_2$ intersect in at most a finte number of segments and points. Then the area of R is the sum of the aeas of $R_1$ and $R_2$.
+
+4. A circle can be drawn, given a center and radius. 
+
+## Class Questions 
+
+### AA Simialrity Theorem
+
+$\rightarrow$ Use ASA Congruence 
+
+Imagine we have two trinagles $\triangle ABC$ and $\triangle FED$ where we knew that $\angle CAB\cong \angle DFE$ and $\angle ABC\cong \angle FED$. Then we also know that $\angle BCA\cong\angle EDF$. 
+
+Pick any vertex B, we can apply a dilation with center B with scale $k=\frac{DE}{AB}$, so $AB\cdot k=DE$.
+
+By choice of K we know that 
+
+- $A'B'=DE$
+
+- $\angle A'B'C'\cong \angle ABC\cong \angle DEF$
+
+- $\angle B'A'C'\cong\angle BCA\cong \angle EDF$
+
+Therefore $\triangle A'B'C'\cong\triangle DEF$
+
+$\Rightarrow\triangle ABC\sim\triangle DEF$
+
+## Practice Final 
+
+### T/F: If ABCD is a quadrilateral inscribed in a circle, then $\angle ABC$ and $\angle CDA$ are supplementary.
+
+![](img/img153.png)
+
+True, explain using inscribed angle theorem. 
+
+### Define Circle Inversion 
+
+A map that swaps the inside and outside of a circle in a way that preserves angles. 
+
+OR
+
+Changes distance so the closer you get to the center the farther you are away. Swaps close and far. 
+
+### Prove that if ABCD is a parallelogram inscribed in a circle, ABCD is a rectangle. 
+
+Proving opposite angles are supplementary are a big step. 
+
+### Explain why it isn't possible to construct a square in the Poincare disk. 
+
+A square is made up of two right angles, however the angles of two right triangles on a sphere would add up to less than $360^\circ$ (the sum of the four right angles of a square). 
+
+### Suppose ABCD is a parallelogram. Prove that if X is a point on $\overline{CD}$ such that $\overline{BX}$ is perpendicular to $\overline{CD}$, then the area of ABCD is $BX\cdot CD$. 
+
+(You can use the axioms for area, including the area of a rectangle formula, but not the area of a triangle formula.)
+
+We proved this in class. 
+
 
 # <span style="color: darksalmon;">W11D21: March 15th, 2022</span>
 
