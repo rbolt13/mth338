@@ -4,7 +4,9 @@ These are class notes and R code for Rebecca Tramel's MTH-338 :  Modern College 
 View [here](https://rbolt13.github.io/mth338/)
 
 # To Do 
-* Ace this class
+* Save class content 
 
 # Done 
 ☑️ Update README
+
+☑️ Ace this class
